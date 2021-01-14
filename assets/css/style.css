@@ -1,0 +1,26 @@
+
+
+.game-name {
+    position: relative;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.background-img {
+    background-image: url(../img/airplane.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    opacity: .75;
+}
+
+.title-homepage {
+    font-size: 10vw;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    text-align: center;
+}
+
