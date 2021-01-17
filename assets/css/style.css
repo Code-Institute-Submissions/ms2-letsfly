@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 .game-name {
     position: relative;
@@ -18,10 +18,81 @@
 }
 
 .title-homepage {
+    font-family: 'Dancing Script';
     font-size: 10vw;
     color: white;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    text-shadow: -2px -2px 0 rgb(83, 82, 82), 2px -2px 0 rgb(83, 82, 82), -2px 2px 0 rgb(83, 82, 82), 2px 2px 0 #000;
     text-align: center;
+}
+
+.roll-in-left {
+	animation: roll-in-left 0.8s ease-out both;
+}
+
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.test {
+    color: rgb(207, 161, 9);
+    font-size: 3vw;
+    
+}
+
+
+
+.game-btn a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+}
+
+/* Pulse grow css hover style taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
+
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.hvr-pulse-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
+  -webkit-animation-name: hvr-pulse-grow;
+  animation-name: hvr-pulse-grow;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 
@@ -33,10 +104,10 @@
     box-sizing: border-box;
 }
 
-body {
+.game-page {
     height: 100vh;
     display: flex;
-    background-color: blue;
+    background-color: rgb(157, 170, 185);
 }
 
 .memory-game {
