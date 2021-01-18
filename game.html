@@ -7,60 +7,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
-<body class="game-page">
+<body class="game-body">
     
     <div class="reset-btn"><i class="fas fa-undo"></i>Back</div>
 
-    <section class="memory-game">
-        <div class="memory-card" data-framework="american">
-            <img class="front-face" src="assets/img/AAA.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo" />
-        </div>
-          <div class="memory-card" data-framework="aircanada">
-            <img class="front-face" src="assets/img/ACA.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-       <div class="memory-card" data-framework="hainan">
-            <img class="front-face" src="assets/img/CHH2.png"  alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-        <div class="memory-card" data-framework="taiwan">
-            <img class="front-face" src="assets/img/EVA.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-        <div class="memory-card" data-framework="irish">
-            <img class="front-face" src="assets/img/EIN.png"  alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-        <div class="memory-card" data-framework="iceland">
-            <img class="front-face" src="assets/img/ICE.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-        <div class="memory-card" data-framework="american">
-            <img class="front-face" src="assets/img/AAA.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo" />
-        </div>
-          <div class="memory-card" data-framework="aircanada">
-            <img class="front-face" src="assets/img/ACA.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-       <div class="memory-card" data-framework="hainan">
-            <img class="front-face" src="assets/img/CHH2.png"  alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-        <div class="memory-card" data-framework="taiwan">
-            <img class="front-face" src="assets/img/EVA.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-        <div class="memory-card" data-framework="irish">
-            <img class="front-face" src="assets/img/EIN.png"  alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-        <div class="memory-card" data-framework="iceland">
-            <img class="front-face" src="assets/img/ICE.png" alt="front card image"/>
-            <img class="back-face" src="assets/img/avion-01.jpg" alt="airline logo"/>
-        </div>
-    </section>
+      <h3>Score:<span id="result"></span></h3>
+       <h3>Time:<span id="time"></span></h3>
+
+    <div id="game"></div>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
