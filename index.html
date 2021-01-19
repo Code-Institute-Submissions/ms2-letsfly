@@ -8,21 +8,50 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="home-pg">
     <div class="background-img">
         <div class="game-name">
-            <h2 class="title-homepage">Let's Fly!</h2>
+            <h1 class="title-homepage hvr-wobble-vertical">Let's Fly!</h1>
             <p class="test">Test your memory on airline logos</p>
         </div>
+
+    
+
+    <!--game buttons-->    
     <div class="row">
         <div class="col">
             <div class="home-page-btn">
                 <button class="how-2-btn hvr-bounce-in" type="button" data-toggle="modal" data-target="#instructionsModal">How to Play</button>
-                    <a class="start-btn hvr-bounce-in" href="game.html" role="button"> Start Game!</a>
+                    <a class="start-btn hvr-bounce-in" href="game.html" role="button"> Start Game</a>
                 </div>
             </div>
         </div>
     </div>
+
+   <!-- How to Play Modal--> 
+        <div class="modal" tabindex="-1" role="dialog" id="instructionsModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h2 class="modal-title">
+                            How To Play
+                        </h2>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="how-to-play" style="list-style-type:none;">
+                            <li><i class="fas fa-plane"></i> Pair all the airline logos before your time runs out!</li>
+                            <li><i class="fas fa-plane"></i> You have * minutes and * card-flips to find them all </li>
+                            <li><i class="fas fa-plane"></i> Use the <i class="fa fa-redo"> </i> if you need to restart your
+                                game</li>
+                        </ul>
+                        <a class="modal-btn hvr-bounce-in" href="game.html">Lets Fly!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     <!--Scripts-->
     <script src="https://kit.fontawesome.com/067e5a2c50.js" crossorigin="anonymous"></script>
