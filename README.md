@@ -1,45 +1,46 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## [**Table of Contents**](#table-of-contents)
 
-Welcome elerel,
+[**1. UX**](#1-ux)
+- [1.1 Overview](#11-overview)
+- [1.2 Project Goals](#12-project-goals)
+- [1.3 User Stories](#13-user-stories)
+- [1.4 Design Process](#14-design-process)
+    * [Colour Palette](#colour-palette)
+    * [Images](#images)
+    * [Typography](#typography)
+    * [Amimations](#animations)
+    * [Footers](#footers)
+    * [Wireframes](#wireframes)
+    * [Development Process](#development-process)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[**2. Features**](#2-features)
+- [2.1 Existing Features](#21-existing-features)
+- [2.2 Future Features](#22-future-features)
 
-## Gitpod Reminders
+[**3. Technologies Used**](#3-technologies-used)
+- [3.1 Languages](#31-languages)
+- [3.2 Libraries](#32-libraries)
+- [3.3 Tools](#33-tools)
+- [3.4 Resources](#34-resources)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[**4. Testing**](#4-testing)
+- [4.1 Automatic Testing](#41-automatic-testing)
+- [4.2 Manual Testing](#42-manual-testing)
 
-`python3 -m http.server`
+[**5. Bugs and Solutions**](#5-bugs-and-solutions)
+- [5.1 Resolved Bugs](#51-resolved-bugs)
+- [5.2 Still Existing](#52-still-existing)
 
-A blue button should appear to click: *Make Public*,
+[**6. Deployment**](#6-deployment)
+- [6.1 GitHub Pages](#61-github-pages)
+- [6.2 Locally](#62-locally)
 
-Another blue button should appear to click: *Open Browser*.
+[**7. Credits**](#7-credits)
+- [7.1 Content](#71-content)
+- [7.2 Media](#72-media)
+- [7.3 Code](#73-code)
+- [7.4 Acknowledgements](#74-acknowledgements)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[**8. Disclaimer**](#8-disclaimer)
 
-A blue button should appear to click: *Make Public*,
-
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+---
