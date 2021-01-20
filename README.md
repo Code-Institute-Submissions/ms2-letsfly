@@ -8,14 +8,12 @@
     * [Colour Palette](#colour-palette)
     * [Images](#images)
     * [Typography](#typography)
-    * [Amimations](#animations)
-    * [Footers](#footers)
     * [Wireframes](#wireframes)
     * [Development Process](#development-process)
 
 [**2. Features**](#2-features)
 - [2.1 Existing Features](#21-existing-features)
-- [2.2 Future Features](#22-future-features)
+- [2.2 Features Left to Implement](#22-future-features)
 
 [**3. Technologies Used**](#3-technologies-used)
 - [3.1 Languages](#31-languages)
