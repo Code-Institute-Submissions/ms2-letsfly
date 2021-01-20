@@ -131,6 +131,10 @@
     text-align: center;    
 }
 
+.how-2-btn {
+    margin-right: 2rem;
+}
+
 .start-btn:hover {
     text-decoration: none;
     color: rgb(207, 161, 9);
