@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 .home-pg {
     height: 100vh;
@@ -24,9 +25,9 @@
 .title-homepage {
   margin-top: 5rem;
   position: relative;
-  font-family: 'Source Sans Pro' sans-serif;
+  font-family: 'Dancing Script', sans-serif;
   font-size: 4em;
-  text-transform: uppercase;
+  
   color: #FAB942;
   font-size: 4em;
   letter-spacing: 4px;
@@ -103,21 +104,23 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-
-
-
-    
              
 .test {
     color: rgb(207, 161, 9);
-    font-size: 3vh;
-    
+    font-size: 3vh;   
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .how-2-btn,
 .start-btn {    
-    margin-top: 10rem;
+    margin-top: 5rem;
     border-radius: 5px;
+    padding: 5px;
     background-color: #fff;
     color: rgb(207, 161, 9);
     border: 1px solid #000;
@@ -125,12 +128,7 @@
     font-size: 1.75rem;
     font-family: sans-serif;
     width: 7em;
-    text-align: center;
-    
-}
-
-.how-2-btn {
-    margin-right: 16rem;
+    text-align: center;    
 }
 
 .start-btn:hover {
@@ -138,11 +136,8 @@
     color: rgb(207, 161, 9);
 }
 
-.home-page-btn {
-    margin-left: 40rem;
-}
-/* Pulse grow css hover style taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 
+/*  CSS hover style taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 .hvr-bounce-in {
   display: inline-block;
   vertical-align: middle;
@@ -177,10 +172,13 @@
 
 .modal-btn {
     color: #FAB942;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 .modal-btn:hover {
     color: #f4ff00;
+    text-decoration: none;
 }
 
 .how-to-play i {
@@ -189,9 +187,7 @@
 
 
 
-/* styling for game.html */
-
-  
+/* styling for game.html */  
 *,
 *::before,
 *::after {
