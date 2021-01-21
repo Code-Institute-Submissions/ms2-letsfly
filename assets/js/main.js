@@ -11,8 +11,8 @@ const cardsArray = [
     img: 'assets/img/AMU.png'
 },
 {
-    name: 'CHH2',
-    img: 'img/CHH2.png'
+    name: 'aaa',
+    img: 'img/AAA.png'
 },
 {
     name: 'FIN',
@@ -52,16 +52,22 @@ const cardsArray = [
 },
 ];
 
+// Shuffle cards
 var gameGrid = cardsArray.concat(cardsArray).sort(function () {
   return 0.5 - Math.random();
 });
 
+// Set game variables
 var firstGuess = '';
 var secondGuess = '';
 var count = 0;
 var previousTarget = null;
 var delay = 1200;
 
+// Set Audio variables
+
+const success = new Audio('assets/audio/airplane+jetstart2.mp3');
+const fail = new Audio('assets/audio/airplane+breakdown+1.mp3');
 var game = document.getElementById('game');
 var grid = document.createElement('section');
 grid.setAttribute('class', 'grid');
@@ -136,3 +142,4 @@ grid.addEventListener('click', function (event) {
     previousTarget = clicked;
   }
 });
+
