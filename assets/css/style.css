@@ -252,3 +252,16 @@
 .match .front {
   background: rgb(2, 25, 95) !important;
 }
+
+/* Footer Styling */
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(192, 180, 180);
+   color: rgb(128, 96, 37);
+   text-align: center;
+   font-family: sans-serif;
+}
