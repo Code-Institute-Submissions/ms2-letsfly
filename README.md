@@ -27,11 +27,10 @@
 
 [**5. Bugs and Solutions**](#5-bugs-and-solutions)
 - [5.1 Resolved Bugs](#51-resolved-bugs)
-- [5.2 Still Existing](#52-still-existing)
+- [5.2 Existing Bugs](#52-existing-bugs)
 
 [**6. Deployment**](#6-deployment)
 - [6.1 GitHub Pages](#61-github-pages)
-- [6.2 Locally](#62-locally)
 
 [**7. Credits**](#7-credits)
 - [7.1 Content](#71-content)
@@ -39,6 +38,6 @@
 - [7.3 Code](#73-code)
 - [7.4 Acknowledgements](#74-acknowledgements)
 
-[**8. Disclaimer**](#8-disclaimer)
+
 
 ---
