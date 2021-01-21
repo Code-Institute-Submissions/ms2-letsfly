@@ -5,7 +5,7 @@
 - [1.2 Project Goals](#12-project-goals)
 - [1.3 User Stories](#13-user-stories)
 - [1.4 Design Process](#14-design-process)
-    * [Colour Palette](#colour-palette)
+    * [Colour Scheme](#colour-scheme)
     * [Images](#images)
     * [Typography](#typography)
     * [Wireframes](#wireframes)
