@@ -7,12 +7,12 @@ const cardsArray = [
     img: 'assets/img/ACA.png'
 },
 {
-    name: 'amu',
-    img: 'assets/img/AMU.png'
+    name: 'hawaii',
+    img: 'assets/img/HAL.png'
 },
 {
-    name: 'aaa',
-    img: 'img/AAA.png'
+    name: 'klm',
+    img: 'assets/img/KLM.png'
 },
 {
     name: 'FIN',
@@ -23,8 +23,8 @@ const cardsArray = [
     img: 'assets/img/UAE.png'
 },
 {
-    name: 'Malay',
-    img: 'assets/img/MAS.png'
+    name: 'jal',
+    img: 'assets/img/JAL.png'
 },
 {
     name: 'Ryanair',
@@ -68,6 +68,7 @@ var delay = 1200;
 
 const success = new Audio('assets/audio/airplane+jetstart2.mp3');
 const fail = new Audio('assets/audio/airplane+breakdown+1.mp3');
+
 var game = document.getElementById('game');
 var grid = document.createElement('section');
 grid.setAttribute('class', 'grid');

@@ -204,7 +204,7 @@
 }
 
 .grid {
-  max-width: 960px;
+  max-width: 520px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -221,8 +221,8 @@
 .card,
 .back,
 .front {
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
 }
 
 .back,
@@ -233,7 +233,7 @@
 
 .front {
   z-index: 2;
-  background: #FAB942 url('../img/avion-01.jpg') no-repeat center center / contain;
+  background: #FAB942 url('../img/frontcard.jpg') no-repeat center center / contain;
 }
 
 .back {
