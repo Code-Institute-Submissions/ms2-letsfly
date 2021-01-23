@@ -149,5 +149,40 @@ grid.addEventListener('click', function (event) {
   }
 });
 
+//Adding a timer to the game- snippet taken from https://stackoverflow.com/questions/42007631/adding-time-counter-to-my-memory-game-script
+(function () {
+  var timeContainer = document.getElementById("timer-value");
+  var startButton = document.getElementById("start-game");
+  var timer = 0;
+  var maxTime = 60;
+  var timeout = null;
+  function count () {
+    timeout = setTimeout(function () {
+      if (timer < maxTime) {
+        timer++;
+        timeContainer.innerText = timer;
+        count();
+      }
+      else {
+        alert("Time's up!");
+        startButton.style.display = "inline-block";
+      }
+    }, 1000);
+  }
+  function endGame () {
+    clearTimeout(timeout);
+    startButton.style.display = "inline-block";
+    alert("You completed the game in time!");
+  }
+  function startGame () {
+    if (timeout) { clearTimeout(timeout); }
+    timer = 0;
+    timeContainer.innerText = timer;
+    this.style.display = "none";
+    count();
+  }
+  document.getElementById("start-game").addEventListener("click", startGame);
+  document.getElementById("end-game").addEventListener("click", endGame);
+})();
 
 
