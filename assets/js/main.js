@@ -52,11 +52,6 @@ const cardsArray = [
 },
 ];
 
-// Shuffle cards
-var gameGrid = cardsArray.concat(cardsArray).sort(function () {
-  return 0.5 - Math.random();
-});
-
 // Set game variables
 var firstGuess = '';
 var secondGuess = '';
@@ -64,15 +59,24 @@ var count = 0;
 var previousTarget = null;
 var delay = 1200;
 
+var points = 0;
+var finalPoint = 0;
+var win = 0;
+
 // Set Audio variables
 
-const success = new Audio('assets/audio/airplane+jetstart2.mp3');
-const fail = new Audio('assets/audio/airplane+breakdown+1.mp3');
+const successSound = new Audio('assets/audio/airplane+jetstart2.mp3'); // correct guess sound
+const fail = new Audio('assets/audio/airplane+breakdown+1.mp3'); // wrong guess sound
 
 var game = document.getElementById('game');
 var grid = document.createElement('section');
 grid.setAttribute('class', 'grid');
 game.appendChild(grid);
+
+// Shuffle cards and display 2 sets of cards
+var gameGrid = cardsArray.concat(cardsArray).sort(function () {
+  return 0.5 - Math.random();
+});
 
 gameGrid.forEach(function (item) {
   var name = item.name,
@@ -95,10 +99,11 @@ gameGrid.forEach(function (item) {
   card.appendChild(back);
 });
 
-var match = function match() {
+//Function for matching cards- loops through all selected cards when called, then match class added
+const match = () => {
   var selected = document.querySelectorAll('.selected');
-  selected.forEach(function (card) {
-    card.classList.add('match');
+  selected.forEach((card) => {
+    card.classList.add('match')
   });
 };
 
@@ -143,4 +148,6 @@ grid.addEventListener('click', function (event) {
     previousTarget = clicked;
   }
 });
+
+
 

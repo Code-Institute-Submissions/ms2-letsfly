@@ -27,7 +27,6 @@
   position: relative;
   font-family: 'Dancing Script', sans-serif;
   font-size: 4em;
-  
   color: #FAB942;
   font-size: 4em;
   letter-spacing: 4px;
@@ -164,6 +163,7 @@
     text-align: center;
     color: #FAB942;
     background: rgb(40, 46, 138);
+    
 }
 
 .modal-title {
@@ -199,16 +199,47 @@
 }
 
 .game-body {
-  margin: 20px 0;
-  background: rgb(2, 25, 95);
+  margin: 0;
+  background: radial-gradient(rgb(79, 134, 224), rgb(2, 42, 95));
+  min-height: 100vh;
+}
+
+.game-info {
+    margin-top: 10px;
+}
+.game-info a {
+    font-family: 'Source San Pro', sans-serif;
+    color: #FAB942;
+    text-decoration: none;
+}
+
+.title-gamepage {
+  margin-top: 5rem;
+  text-align: center;
+  font-family: 'Dancing Script', sans-serif;
+  color: #FAB942;
+  font-size: 3em;
+  margin: 0 auto;
+
+}
+
+.game-container {
+    color: #b68f3b;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
 }
 
 .grid {
-  max-width: 520px;
+  max-width: 480px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-bottom: 4em;
 }
 
 .card {
@@ -249,7 +280,7 @@
 }
 
 .match .front {
-  background: rgb(2, 25, 95) !important;
+  background:  #FAB942 !important;
 }
 
 /* Footer Styling */
