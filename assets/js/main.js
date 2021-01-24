@@ -34,22 +34,6 @@ const cardsArray = [
     name: 'Scandinavian',
     img: 'assets/img/SAS.png'
 },
-{
-    name: 'swr',
-    img: 'assets/img/SWR.png'
-},
-{
-    name: 'thai',
-    img: 'assets/img/THA.png'
-},
-{
-    name: 'sli',
-    img: 'assets/img/SLI.png'
-},
-{
-    name: 'turk',
-    img: 'assets/img/THY.png'
-},
 ];
 
 // Set game variables
@@ -58,15 +42,18 @@ var secondGuess = '';
 var count = 0;
 var previousTarget = null;
 var delay = 1200;
-
+let gameStart = false;
+let gameOver = false;
 var points = 0;
 var finalPoint = 0;
 var win = 0;
 
 // Set Audio variables
 
+/*
 const successSound = new Audio('assets/audio/airplane+jetstart2.mp3'); // correct guess sound
 const fail = new Audio('assets/audio/airplane+breakdown+1.mp3'); // wrong guess sound
+*/
 
 var game = document.getElementById('game');
 var grid = document.createElement('section');
@@ -149,40 +136,25 @@ grid.addEventListener('click', function (event) {
   }
 });
 
-//Adding a timer to the game- snippet taken from https://stackoverflow.com/questions/42007631/adding-time-counter-to-my-memory-game-script
-(function () {
-  var timeContainer = document.getElementById("timer-value");
-  var startButton = document.getElementById("start-game");
-  var timer = 0;
-  var maxTime = 60;
-  var timeout = null;
-  function count () {
-    timeout = setTimeout(function () {
-      if (timer < maxTime) {
-        timer++;
-        timeContainer.innerText = timer;
-        count();
-      }
-      else {
-        alert("Time's up!");
-        startButton.style.display = "inline-block";
-      }
-    }, 1000);
-  }
-  function endGame () {
-    clearTimeout(timeout);
-    startButton.style.display = "inline-block";
-    alert("You completed the game in time!");
-  }
-  function startGame () {
-    if (timeout) { clearTimeout(timeout); }
-    timer = 0;
-    timeContainer.innerText = timer;
-    this.style.display = "none";
-    count();
-  }
-  document.getElementById("start-game").addEventListener("click", startGame);
-  document.getElementById("end-game").addEventListener("click", endGame);
-})();
 
+// Adding a timer to the game (from fellow student Amy Keedwell https://github.com/AmyKeedwell/2-Milestone-Project-Memory-Bay/blob/master/assets/js/scripts.js)
+
+$('.start').click(function() {
+    gameStart = true;
+    var seconds = document.getElementById("countdown").textContent;
+    var countdown = setInterval(function(){
+        seconds--;
+        (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
+        document.getElementById("countdown").textContent = seconds;
+        if (seconds === 0){
+            $('#myModal').modal();
+            clearInterval(countdown);
+        };
+        if (gameOver === true){
+            $('#winModal').modal();
+            clearInterval(countdown);
+        };
+        if (seconds <= 0) clearInterval(countdown);
+    },1000);
+});
 
