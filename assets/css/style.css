@@ -204,10 +204,10 @@
   min-height: 100vh;
 }
 
-.game-info {
+.back-btn {
     margin-top: 10px;
 }
-.game-info a {
+.back-btn a {
     font-family: 'Source San Pro', sans-serif;
     color: #FAB942;
     text-decoration: none;
@@ -223,6 +223,7 @@
 
 }
 
+
 .game-container {
     color: #b68f3b;
     font-family: 'Source Sans Pro', sans-serif;
@@ -232,6 +233,7 @@
     margin-left: 5em;
     margin-right: 5em;
 }
+
 
 .grid {
   max-width: 480px;
@@ -264,7 +266,7 @@
 
 .front {
   z-index: 2;
-  background: #FAB942 url('../img/frontcard.jpg') no-repeat center center / contain;
+  background: url('../img/avion-01.jpg') no-repeat center center / contain;
 }
 
 .back {
@@ -283,12 +285,17 @@
   background:  #FAB942 !important;
 }
 
+
+
+
 /* Footer Styling */
 
 .footer {
    position: fixed;
    left: 0;
    bottom: 0;
+   padding-top: 5px;
+   padding-bottom: 5px;
    width: 100%;
    background-color: rgb(192, 180, 180);
    color: rgb(128, 96, 37);
