@@ -37,16 +37,16 @@ const cardsArray = [
 ];
 
 // Set game variables
-var firstGuess = '';
-var secondGuess = '';
-var count = 0;
-var previousTarget = null;
-var delay = 1200;
+let firstGuess = '';
+let secondGuess = '';
+let count = 0;
+let previousTarget = null;
+let delay = 1200;
 let gameStart = false;
 let gameOver = false;
-var points = 0;
-var finalPoint = 0;
-var win = 0;
+let points = 0;
+let finalPoint = 0;
+let win = 0;
 
 // Set Audio variables
 
@@ -55,8 +55,8 @@ const successSound = new Audio('assets/audio/airplane+jetstart2.mp3'); // correc
 const fail = new Audio('assets/audio/airplane+breakdown+1.mp3'); // wrong guess sound
 */
 
-var game = document.getElementById('game');
-var grid = document.createElement('section');
+let game = document.getElementById('game');
+let grid = document.createElement('section');
 grid.setAttribute('class', 'grid');
 game.appendChild(grid);
 
@@ -158,3 +158,6 @@ $('.start').click(function() {
     },1000);
 });
 
+// to do: countdown timer 60 seconds to get all pairs- points when you find pairs
+// out of time modal and a well done modal for finishing on time
+// 
