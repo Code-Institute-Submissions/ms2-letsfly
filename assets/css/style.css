@@ -206,32 +206,39 @@
 
 .back-btn {
     margin-top: 10px;
+    margin-left: 5px;
 }
+
 .back-btn a {
     font-family: 'Source San Pro', sans-serif;
     color: #FAB942;
     text-decoration: none;
 }
 
+.reset-btn {
+    padding-left: 10px;
+}
+
+
 .title-gamepage {
   margin-top: 5rem;
   text-align: center;
   font-family: 'Dancing Script', sans-serif;
   color: #FAB942;
-  font-size: 3em;
+ 
   margin: 0 auto;
 
 }
 
 
 .game-container {
-    color: #b68f3b;
+    color: #FAB942;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2em;
     display: flex;
+    margin-left: 22em;
+    margin-right: 22em;
     justify-content: space-between;
-    margin-left: 5em;
-    margin-right: 5em;
 }
 
 
