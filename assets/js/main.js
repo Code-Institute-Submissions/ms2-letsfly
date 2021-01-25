@@ -1,8 +1,6 @@
 // card data
 
-const cardsArray = [
-
-{
+const cardsArray = [{
     name: 'aircanada',
     img: 'assets/img/ACA.png'
 },
@@ -107,11 +105,16 @@ var resetGuesses = function resetGuesses() {
   });
 };
 
+let matchCards = 0;
+
 grid.addEventListener('click', function (event) {
 
   var clicked = event.target;
 
-  if (clicked.nodeName === 'SECTION' || clicked === previousTarget || clicked.parentNode.classList.contains('selected') || clicked.parentNode.classList.contains('match')) {
+  if (clicked.nodeName === 'SECTION' || 
+      clicked === previousTarget || 
+      clicked.parentNode.classList.contains('selected') || 
+      clicked.parentNode.classList.contains('match')) {
     return;
   }
 
@@ -129,6 +132,7 @@ grid.addEventListener('click', function (event) {
 
     if (firstGuess && secondGuess) {
       if (firstGuess === secondGuess) {
+        matchCards++;
         setTimeout(match, delay);
       }
       setTimeout(resetGuesses, delay);
@@ -153,15 +157,30 @@ grid.addEventListener('click', function (event) {
             display.textContent = minutes + ':' + seconds;
 
             if (timer-- <= 0) {
-                loseGame(timer);
+               // loseGame(timer);
+                display.textContent = "00:00";
                 timer = duration;
                 clearTimeout(timerId);
             }
             // stop timer if game is won
-            if (matchedCards.length === (gameCards.length / 2)) {
+            if (matchCards === 8) {
                 clearTimeout(timerId);
+                alert("Awesome You won!!");
+            }else if(timerId && timer <= 0){
+                looseGame(display, clearTimeout, timerId);
             }
         }, 1000);
+    }
+
+    const looseGame = (display, clearTimeout, timerId) =>{
+        display.textContent = "00:00";
+
+        setTimeout(()=>{
+           // alert("You lost the game!");
+            $('#myModal').modal('toggle'); 
+
+            clearTimeout(timerId);
+        }, 2000)
     }
 
     
