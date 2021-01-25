@@ -225,9 +225,7 @@
   text-align: center;
   font-family: 'Dancing Script', sans-serif;
   color: #FAB942;
- 
   margin: 0 auto;
-
 }
 
 
@@ -236,8 +234,8 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2em;
     display: flex;
-    margin-left: 22em;
-    margin-right: 22em;
+    margin-left: 10em;
+    margin-right: 10em;
     justify-content: space-between;
 }
 
