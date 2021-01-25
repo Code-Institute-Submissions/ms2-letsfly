@@ -44,9 +44,10 @@ let previousTarget = null;
 let delay = 1200;
 let gameStart = false;
 let gameOver = false;
-let points = 0;
-let finalPoint = 0;
-let win = 0;
+let timerId;
+let firstClick = 0;
+
+
 
 // Set Audio variables
 
@@ -137,27 +138,48 @@ grid.addEventListener('click', function (event) {
 });
 
 
-// Adding a timer to the game (from fellow student Amy Keedwell https://github.com/AmyKeedwell/2-Milestone-Project-Memory-Bay/blob/master/assets/js/scripts.js)
+    //Function code from Stack Overflow
+    function gameTimer(duration, display) {
+        let timer = duration,
+            minutes, seconds;
 
-$('.start').click(function() {
-    gameStart = true;
-    var seconds = document.getElementById("countdown").textContent;
-    var countdown = setInterval(function(){
-        seconds--;
-        (seconds == 1) ? document.getElementById("plural").textContent = "" : document.getElementById("plural").textContent = "s";
-        document.getElementById("countdown").textContent = seconds;
-        if (seconds === 0){
-            $('#myModal').modal();
-            clearInterval(countdown);
-        };
-        if (gameOver === true){
-            $('#winModal').modal();
-            clearInterval(countdown);
-        };
-        if (seconds <= 0) clearInterval(countdown);
-    },1000);
-});
+        timerId = setInterval(function() {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
 
-// to do: countdown timer 60 seconds to get all pairs- points when you find pairs
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+
+            display.textContent = minutes + ':' + seconds;
+
+            if (timer-- <= 0) {
+                loseGame(timer);
+                timer = duration;
+                clearTimeout(timerId);
+            }
+            // stop timer if game is won
+            if (matchedCards.length === (gameCards.length / 2)) {
+                clearTimeout(timerId);
+            }
+        }, 1000);
+    }
+
+    
+    //start the countdown when first card is clicked 
+    let gameBoard = document.querySelector('.board');
+    gameBoard.onclick = (function() {
+        firstClick++;
+        //remove onclick after first card is clicked
+        if (parseInt(firstClick) < 2) {
+            gameBoard.removeAttribute('onclick');
+            timeRemaining = 60,
+                display = document.querySelector('#timer');
+            gameTimer(timeRemaining, display);
+        }
+    });
+
+// to do: 
+// stop the timer when the player matches all cards
+// add points for match paired plus 1 point for each second remaining
 // out of time modal and a well done modal for finishing on time
 // 
