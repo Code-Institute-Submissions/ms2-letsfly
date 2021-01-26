@@ -12,27 +12,20 @@
     padding-top: 5vh;
 }
 
-/*
-@media screen and (max-width: 384px) {
-    .title-homepage h1  {
-        font-size: 1em;
-    }
 
-    .col {
-        left: 70px;
-        right: 70px;
-    }
-*/
-    
 
 .background-img {
     background-image: url(../img/plane1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    overflow: hidden;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: auto;
     background-attachment: fixed;
-    background-position: center;
-    background-size: cover;    
+    background-position: center;    
 }
 
 .title-homepage {
@@ -147,6 +140,25 @@
     margin-right: 2rem;
 }
 
+@media screen and (max-width:400px) {
+    .how-2-btn {
+        margin-left: 30px;   
+    }
+
+    .title-homepage {
+        font-size: 3em;
+    }
+
+    .modal-btn {
+        font-size: 1em;
+    }
+
+    .modal-title {
+        margin-left: 5rem;
+    }
+
+}
+
 .start-btn:hover {
     text-decoration: none;
     color: rgb(207, 161, 9);
@@ -178,7 +190,7 @@
 
 .modal-title {
     text-align: center;
-    margin-left: 150px;
+    /*margin-left: 150px;*/
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     color: #FAB942;
