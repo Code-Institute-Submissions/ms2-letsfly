@@ -254,6 +254,7 @@
   transition: all .4s linear;
   transform-style: preserve-3d;
   margin: 5px;
+ 
 }
 
 .card,
@@ -276,7 +277,7 @@
 
 .back {
   transform: rotateY(180deg);
-  background-color: rgba(101, 170, 249, 0);
+  background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -290,6 +291,14 @@
   background:  #FAB942 !important;
 }
 
+/* Gave over modal styling */
+
+.modal-footer {
+    text-align: center;
+    text-decoration: none;
+    color: #FAB942;
+    
+}
 
 
 
