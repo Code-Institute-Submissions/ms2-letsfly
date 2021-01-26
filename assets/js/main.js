@@ -9,12 +9,12 @@ const cardsArray = [{
     img: 'assets/img/HAL.png'
 },
 {
-    name: 'klm',
-    img: 'assets/img/KLM.png'
+    name: 'turkish',
+    img: 'assets/img/THY.png'
 },
 {
-    name: 'FIN',
-    img: 'assets/img/FIN2.png'
+    name: 'iceland',
+    img: 'assets/img/ICE.png'
 },
 {
     name: 'emirates',
@@ -25,12 +25,12 @@ const cardsArray = [{
     img: 'assets/img/JAL.png'
 },
 {
-    name: 'Ryanair',
-    img: 'assets/img/RYR.png'
+    name: 'air lingus',
+    img: 'assets/img/EIN.png'
 },
 {
-    name: 'Scandinavian',
-    img: 'assets/img/SAS.png'
+    name: 'Swiss',
+    img: 'assets/img/SWR.png'
 },
 ];
 
