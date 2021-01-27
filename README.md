@@ -28,8 +28,8 @@
 - [3.4 Resources](#34-resources)
 
 [**4. Testing**](#4-testing)
-- [4.1 Automatic Testing](#41-automatic-testing)
-- [4.2 Manual Testing](#42-manual-testing)
+- [4.1 Testing](#41-testing)
+- [4.2 Testing User Stories](#42-testing-user-stories)
 
 [**5. Bugs and Solutions**](#5-bugs-and-solutions)
 - [5.1 Resolved Bugs](#51-resolved-bugs)
@@ -52,7 +52,9 @@
 
 As a young child (and to this day, I will admit), I used to love spotting the different airlines from the sky by their airline logos. It used to keep us quite entertained as children, so why not turn it into a memory card matching game? I chose this project simply as there has never been a better time to switch off from the news around us lately and maybe even exercise our brains with this fun card- matching game.
 
-### 1.2 What is the challenge of the game?
+### 1.2 Project Goals
+
+What is the challenge of the game?
 
 To match as many pairs in as little time as possible and the player is rewarded points for every match they find- bonus points for every second remaining.
 
@@ -72,4 +74,32 @@ As a site developer, I would like the site to accomplish:
 -	A restart button to allow the user reset the game, timer and star rating
 -	A well done/congratulations modal to appear when the player has completed the game
 -	A “game over” modal to appear to let the player know they ran out of time and to give the player the chance to replay the game
+
+### 1.4 Design Process
+
+* Colour Scheme
+
+-   I used the below colour chart from [Scheme Color](https://www.schemecolor.com/yellow-navy-blue-color-scheme.php) as I found it to be quite a striking and familiar colour chart (Ryanair?) to work with.
+-   For the game page, instead of using the background image, I decided to go with a radial-gradient of the two blue colours, rgb(79, 134, 224) and rgb(2, 42, 95).
+
+![image](https://res.cloudinary.com/elerel/image/upload/v1611741228/Colour_scheme_rlwmwu.png)
+
+
+*   Images
+
+The imagery chosen for my project was down to two things- colours and to be able to create the sense of flying and the excitement of travel. I like this image as it shows the user in the image the tip of the wing, which is usually where the airline logo would appear.
+
+![image](https://res.cloudinary.com/elerel/image/upload/v1611746832/plane1_s7otzx.jpg)
+
+*   Typography
+
+I used Googlefonts to browse for suitable fonts to implement into the project and decided on "Dancing Script" for the title font as it appears as a neat and tidy font which reminds me of type of styled font you would see on 1950's aircrafts. It also works well with the hover bounce effect and creates an firendly, informal vibe to the site.
+
+*   Wireframes
+
+The interactive memory card game simply has two sections: a welcome page with an instructions button (once clicked, a pop-up modal with bullet-styled instructions appear) and a button that directs the user to the game itself.
+
+- Wireframes for large screens and desktops: <a href= "assets/docs/wireframes/MS2-desktop.pdf" target="_blank"> Desktop View</a>
+- Wireframes for medium screens and tablet devices: <a href= "assets/docs/wireframes/MS2-tablet.pdf" target="_blank"> Tablet View</a>
+- Wireframes for smaller screens and mobiles: <a href= "assets/docs/wireframes/MS2-mobile.pdf" target="_blank"> Smartphone View</a>
 
