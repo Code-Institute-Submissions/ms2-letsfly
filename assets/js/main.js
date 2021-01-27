@@ -142,7 +142,7 @@ grid.addEventListener('click', function (event) {
 });
 
 
-    //Function code from Stack Overflow
+    //Function code from Stack Overflow- to set timer
     function gameTimer(duration, display) {
         let timer = duration,
             minutes, seconds;
@@ -165,7 +165,7 @@ grid.addEventListener('click', function (event) {
             // stop timer if game is won
             if (matchCards === 8) {
                 clearTimeout(timerId);
-                alert("Awesome You won!!");
+                 $('#mywinModal').modal('toggle');
             }else if(timerId && timer <= 0){
                 looseGame(display, clearTimeout, timerId);
             }
