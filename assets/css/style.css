@@ -160,6 +160,10 @@
         margin-left: 5rem;
     }
 
+    #game {
+        margin-bottom: 60px;
+    }
+
 }
 
 /*  CSS hover style taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
@@ -266,6 +270,7 @@
 
 #game {
     margin-top: 2.5rem;
+    
 }
 
 .grid {
