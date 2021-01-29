@@ -117,6 +117,7 @@
 .flex-parent {
   display: flex;
   margin: 0.625rem;
+  
 }
 
 .jc-center {
@@ -126,49 +127,22 @@
 .how2play,
 .start {
     padding: 5px;
-    background-color:#FAB942;
+    background: radial-gradient(#e9e3c2, #b19b81);
     color: #007bff;
     border: 1px solid rgb(206, 119, 48);
-
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
     font-weight: 600;
     font-size: 1.25rem;
     font-family: "Source Sans Pro";
     text-align: center;  
+    width: 140px;
 }
 
 .start:hover a {
     text-decoration: none;
 }
-/*
-.col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.how-2-btn,
-.start-btn {    
-    margin: 1rem;
-    top: 3rem;
-    padding: 5px;
-    background-color: rgb(247, 205, 20);
-    color: rgb(22, 9, 207);
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 1.75rem;
-    font-family: sans-serif;
-    text-align: center;    
-}
-*/
-
-.start:hover {
-    text-decoration: none;
-    color: rgb(59, 156, 236);
-}
-
-
-
 
 /* Media Queries */
 @media screen and (max-width:420px) {
@@ -228,6 +202,7 @@
 .modal-btn:hover {
     color: #f4ff00;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .how-to-play i {
@@ -259,7 +234,7 @@
     text-decoration: none;
 }
 
-.reset-btn {
+.replay-btn {
     padding-left: 10px;
 }
 
@@ -343,6 +318,17 @@
 }
 
 /* Gave over modal styling */
+
+.reset-btn,
+.home-btn {
+    color: #FAB942;
+    font-weight: bold;
+}
+
+.reset-btn:hover,
+.home-btn:hover {
+    text-decoration: none;
+}
  
 
 
