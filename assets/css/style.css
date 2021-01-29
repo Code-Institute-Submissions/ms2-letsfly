@@ -280,8 +280,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2em;
     display: flex;
-    margin: 10px;
-    justify-content: space-around;
+    margin: auto;
+    justify-content: center;
+    display: block;
+    width: fit-content;
+
 }
 
 #game {
