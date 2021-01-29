@@ -1,5 +1,5 @@
 # MS2 - Interactive Front End Milestone Project "Let's Fly"
-![Image](https://res.cloudinary.com/elerel/image/upload/v1611741566/MS2_image_sgxgjz.png)
+![Image](https://res.cloudinary.com/elerel/image/upload/v1611955073/homepg_i8jlyx.png)
 
 ### View the live project [here.](https://elerel.github.io/ms2-letsfly/)
 
@@ -77,7 +77,7 @@ As a site developer, I would like the site to accomplish:
 
 ### 1.4 Design Process
 
-* Colour Scheme
+Colour Scheme
 
 -   I used the below colour chart from [Scheme Color](https://www.schemecolor.com/yellow-navy-blue-color-scheme.php) as I found it to be quite a striking and familiar colour chart (Ryanair?) to work with.
 -   For the game page, instead of using the background image, I decided to go with a radial-gradient of the two blue colours, rgb(79, 134, 224) and rgb(2, 42, 95).
@@ -102,4 +102,29 @@ The interactive memory card game simply has two sections: a welcome page with an
 - Wireframes for large screens and desktops: <a href= "assets/docs/wireframes/MS2-desktop.pdf" target="_blank"> Desktop View</a>
 - Wireframes for medium screens and tablet devices: <a href= "assets/docs/wireframes/MS2-tablet.pdf" target="_blank"> Tablet View</a>
 - Wireframes for smaller screens and mobiles: <a href= "assets/docs/wireframes/MS2-mobile.pdf" target="_blank"> Smartphone View</a>
+
+## 2. Features
+
+### 2.1 Existing Features
+
+For this project, I decided to split the site into **two** sections, a home page and a game page. 
+
+- Home Page
+    - Upon entering the site, you are presented with the title of the game, Take to the Skies, with a large blue sky background image- one where you could easily find yourself gazing out of from an airplane window. There are two buttons centred on the page below a short description of the game and what it entails. For the main title, I used a hover-wobble effect (to remind the user of turbulence perhaps!) and as the player would hover over the buttons, there is a bounce-in hover effect to invite the user in.
+    - The player can take a look at how to play before proceeding on with the game by clicking the button below, or they can be redirected from the instructions modal by clicking "Start Game" as per below:
+    ![image](https://res.cloudinary.com/elerel/image/upload/v1611957390/howtoplaymodal_gwqilx.png)
+
+- Game Page
+    - The player begins the game by clicking on the first card they choose, as outlined in the instructions. Once they click, the counter (1 minute) begins. 
+    - The object of the game is to match as many cards in as little time as possiblle. The score button above the game grid keeps track of how they progress as they go on in the game.
+    - Should the player wish to restart, they can simply click on the "reset" button in the top-right hand corner, or should they wish to review the instructions, they can also return to the home page. The user can also click on the game title of this page to restart their game.
+    - Once the game is complete, the player will be met with a game-over modal message letting them know they ran out of time and the choice to restart the game or return to the home page **OR** they will be congratulated on their results of the game should they complete/find all pairs of the cards, detailing their results of the game in the modal content.
+
+### 2.2 Features Left to Implement
+
+Had I more time to develop this game further, I would have definitely included **difficulty levels** ("Easy", "Medium" & "Hard" etc), with each level adding in more airline logos to match and less time as they progress, to make the game less of a play-once type of game and keep the player entertained longer.
+I would have also included a short **quiz** below the memory card game for bonus points perhaps, asking the player if they can recognize the logos and match them to the name of their associated airline. 
+
+
+
 
