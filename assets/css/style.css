@@ -126,13 +126,15 @@
 .how2play,
 .start {
     padding: 5px;
-    background-color: rgb(247, 205, 20);
+    background-color:#FAB942;
     color: rgb(22, 9, 207);
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 1.75rem;
-    font-family: sans-serif;
+    border: 1px solid rgb(206, 119, 48);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    font-family: "Source Sans Pro";
     text-align: center;  
 }
 /*
