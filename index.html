@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Take to the Skies Memory Game</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body class="home-pg">
     <div class="background-img">
         <div class="game-name">
@@ -15,22 +19,29 @@
             <p class="test">Test your memory on airline logos</p>
         </div>
 
-    
 
-    <!--game buttons-->  
+
+        <!--game buttons 
    <div class="container"> 
     <div class="row">
         <div class="col ">
-            <div class="home-page-btn text-center">
+            <div class="home-page-btn">
                 <button class="how-2-btn hvr-bounce-in" type="button" data-toggle="modal" data-target="#instructionsModal">How to Play</button>
                 <a class="start-btn hvr-bounce-in" type="button" href="game.html" role="button"> Start Game</a>
-                
             </div>
         </div>
     </div>
-   </div>   
+   </div>   -->
 
-   <!-- How to Play Modal--> 
+<div class="flex-parent jc-center ">
+  <button class="how2play hvr-bounce-in" type="submit" data-toggle="modal" data-target="#instructionsModal">How to Play</button>
+</div>
+
+<div class="flex-parent jc-center">
+  <a class="start hvr-bounce-in" type="submit" href="game.html" role="button">Start!</a>
+</div>
+
+        <!-- How to Play Modal-->
         <div class="modal" tabindex="-1" role="dialog" id="instructionsModal">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -45,28 +56,37 @@
                     <div class="modal-body">
                         <ul class="how-to-play" style="list-style-type:none;">
                             <li><i class="fas fa-plane"></i> Click on any card to begin the game</li>
-                            <li><i class="fas fa-plane"></i> Reveal the cards as you click, using your memory to match all cards</li>
-                            <li><i class="fas fa-plane"></i> Earn points for every match you make- bonus points to finish on time! </li>
-                            <li><i class="fas fa-plane"></i> Click <i class="fa fa-redo"> </i> if you wish to restart your
+                            <li><i class="fas fa-plane"></i> Reveal the cards as you click, using your memory to match
+                                all cards</li>
+                            <li><i class="fas fa-plane"></i> Earn points for every match you make- bonus points to
+                                finish on time! </li>
+                            <li><i class="fas fa-plane"></i> Click <i class="fa fa-redo"> </i> if you wish to restart
+                                your
                                 game</li>
                         </ul>
-                        
+
                         <a class="modal-btn hvr-bounce-in" href="game.html">Lets Fly!</a>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 
     <!--Scripts-->
     <script src="https://kit.fontawesome.com/067e5a2c50.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
-    
-   <footer class="footer">
-       <div class="copyright"><i class="far fa-copyright symbol" aria-hidden="true"></i> 2021 Copyright: ELEREL</div>
-   </footer>
+
+    <footer class="footer">
+        <div class="copyright"><i class="far fa-copyright symbol" aria-hidden="true"></i> 2021 Copyright: ELEREL</div>
+    </footer>
 </body>
+
 </html>
