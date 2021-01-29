@@ -116,7 +116,7 @@
 
 .flex-parent {
   display: flex;
-  margin: 1rem;
+  margin: 0.625rem;
 }
 
 .jc-center {
@@ -127,15 +127,17 @@
 .start {
     padding: 5px;
     background-color:#FAB942;
-    color: rgb(22, 9, 207);
+    color: #007bff;
     border: 1px solid rgb(206, 119, 48);
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
+
     font-weight: 600;
     font-size: 1.25rem;
     font-family: "Source Sans Pro";
     text-align: center;  
+}
+
+.start:hover a {
+    text-decoration: none;
 }
 /*
 .col {
