@@ -121,6 +121,8 @@ For this project, I decided to split the site into **two** sections, a home page
     - The object of the game is to match as many cards in as little time as possiblle. The score button above the game grid keeps track of how they progress as they go on in the game.
     - Should the player wish to restart, they can simply click on the "reset" button in the top-right hand corner, or should they wish to review the instructions, they can also return to the home page. The user can also click on the game title of this page to restart their game.
     - Once the game is complete, the player will be met with a game-over modal message letting them know they ran out of time and the choice to restart the game or return to the home page **OR** they will be congratulated on their results of the game should they complete/find all pairs of the cards, detailing their results of the game in the modal content.
+    ![image](https://res.cloudinary.com/elerel/image/upload/v1612109218/gamepage_jujobz.png)
+    ![image](https://res.cloudinary.com/elerel/image/upload/v1612109359/gameovermodal_avmdem.png)
 
 ### 2.2 Features Left to Implement
 
@@ -136,18 +138,17 @@ I would have also included a short **quiz** below the memory card game for bonus
 -   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 Libraries:
-JQuery
-Bootstrap
-Googlefonts
+[JQuery]()
+[Bootstrap]()
+[Googlefonts]()
 [Git](https://git-scm.com/) used as the version control in utilising [Gitpod](https://www.gitpod.io/) to add code and commit to Git/push to Github.
 [Github](https://github.com/) used to store the code following being pushed from Git.
-
 [Balsamiq](https://balsamiq.com/) used to create the wireframes during the "skeleton" phase of the project.
 [Autoprefixer CSS](https://autoprefixer.github.io/) used to check CSS browser compatibility.
 [Hover:CSS](https://ianlunn.github.io/Hover/) used to create additional CSS effects for the title page and buttons across the site
 [Youtube](https://www.youtube.com/) Used as a very handy reference for online JS tutorials and refreshers on JS code learned from the course
 [Real Favicon Generator](https://realfavicongenerator.net/)- to create the sites favicon
-[W3 Schools]()
+[W3 Schools](https://www.w3schools.com/) used as a general reference guide for CSS tips and Javascript function queries.
 [Beautifier](https://beautifier.io/) used to beautify all code for the project.
 [Stack Overflow](https://stackoverflow.com/) as a reference for several tips on ...
 [Cloudinary](https://cloudinary.com/) used to store images for the project.
