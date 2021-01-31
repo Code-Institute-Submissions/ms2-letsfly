@@ -126,8 +126,8 @@ For this project, I decided to split the site into **two** sections, a home page
 
 ### 2.2 Features Left to Implement
 
-Had I more time to develop this game further, I would have definitely included **difficulty levels** ("Easy", "Medium" & "Hard" etc), with each level adding in more airline logos to match and less time as they progress, to make the game less of a play-once type of game and keep the player entertained longer.
-I would have also included a short **quiz** below the memory card game for bonus points perhaps, asking the player if they can recognize the logos and match them to the name of their associated airline. 
+Had I more time to develop this game further, I would have definitely included **difficulty levels** ("Easy", "Medium" & "Hard" etc), with each level adding in more airline logos to match and less time as they progress, to make the game less of a play-once type of game and keep the player entertained longer. The game could be made more interesting if there were a facility to **track your score** and/or even present a leaderboard where one could submit their names and scores.
+To add further to the site itself, I would have also included a short **quiz** below the memory card game for bonus points perhaps, asking the player if they can recognize the logos and match them to the name of their associated airline. 
 
 ## 3. Technologies Used
 
@@ -153,6 +153,7 @@ Libraries:
 [Stack Overflow](https://stackoverflow.com/) as a reference for several tips on ...
 [Cloudinary](https://cloudinary.com/) used to store images for the project.
 [Browserstack](https://www.browserstack.com/) used to check the responsiveness of project across a range of devices and browsers
+[MobiReady](https://ready.mobi/) used to check if the site is mobile responsive
 
 Tools/Resources: Tania Rascia Tutorial, what the JS by Jim Morel
 Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
@@ -164,4 +165,12 @@ Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Oviri
 
 To make sure my HTML passed without any errors or warnings, I used [W3C HTML Validator](https://validator.w3.org/)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612041026/html_ok_ln02va.png)
+
+CSS Validator by Jigsaw:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612041034/CSS_validator_qqveko.png)
+
+Google Mobile Friendly Test:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612130347/Googlemobfrndtest_daqbni.jpg)
+
+
 
