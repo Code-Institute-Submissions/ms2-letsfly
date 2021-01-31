@@ -46,7 +46,6 @@ let timerId;
 let firstClick = 0;
 
 
-
 // Set Audio variables
 
 /*
@@ -93,6 +92,16 @@ const match = () => {
   });
 };
 
+
+//function to count how many moves made- code from https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
+
+let flips = 0;
+let counter = document.querySelector('.flips');
+function moveCounter() {
+    flips++;
+    counter.innerHTML = flips + ' flips'; 
+};
+
 var resetGuesses = function resetGuesses() {
   firstGuess = '';
   secondGuess = '';
@@ -120,6 +129,7 @@ grid.addEventListener('click', function (event) {
 
   if (count < 2) {
     count++;
+    moveCounter(); //to count number of moves at first click
     if (count === 1) {
       firstGuess = clicked.parentNode.dataset.name;
       console.log(firstGuess);
@@ -140,7 +150,6 @@ grid.addEventListener('click', function (event) {
     previousTarget = clicked;
   }
 });
-
 
     //Function code from Stack Overflow- to set timer
     function gameTimer(duration, display) {
@@ -167,16 +176,15 @@ grid.addEventListener('click', function (event) {
                 clearTimeout(timerId);
                  $('#mywinModal').modal('toggle');
             }else if(timerId && timer <= 0){
-                looseGame(display, clearTimeout, timerId);
+                loseGame(display, clearTimeout, timerId);
             }
         }, 1000);
     }
 
-    const looseGame = (display, clearTimeout, timerId) =>{
+    const loseGame = (display, clearTimeout, timerId) => {
         display.textContent = "00:00";
 
         setTimeout(()=>{
-           // alert("You lost the game!");
             $('#myModal').modal('toggle'); 
 
             clearTimeout(timerId);
@@ -196,9 +204,3 @@ grid.addEventListener('click', function (event) {
             gameTimer(timeRemaining, display);
         }
     });
-
-// to do: 
-// stop the timer when the player matches all cards
-// add points for match paired plus 1 point for each second remaining
-// out of time modal and a well done modal for finishing on time
-// 
