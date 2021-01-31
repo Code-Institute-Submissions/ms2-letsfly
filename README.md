@@ -50,9 +50,11 @@
 
 ### 1.1 Overview
 
-As a young child (and to this day, I will admit), I used to love spotting the different airlines from the sky by their airline logos. It used to keep us quite entertained as children, so why not turn it into a memory card matching game? I chose this project simply as there has never been a better time to switch off from the news around us lately and maybe even exercise our brains with this fun card- matching game.
+As a young child (and to this day, I will admit), I used to love spotting the different airlines from the sky by their airline logos. It used to keep us quite entertained as children, so why not turn it into a memory card matching game? I chose this project simply as there has never been a better time to switch off from the news around us lately and maybe even exercise our brains with this fun card- matching game. It is designed to be responsive on a wide range of devices and is a clean and simple site to navigate around for users of all ages to enjoy.
 
 ### 1.2 Project Goals
+
+It was almost immediate that I decided to create a memory-card game for my second milestone project. By creating a fun and challenging exercise, the big drive in this project is to take as much learning experience from Javascript as much as possible.
 
 What is the challenge of the game?
 
@@ -129,26 +131,35 @@ I would have also included a short **quiz** below the memory card game for bonus
 
 ### 3.1 Languages
 
-To make sure my HTML passed without any errors or warnings, I used [W3C HTML Validator](https://validator.w3.org/)
-![image](https://res.cloudinary.com/elerel/image/upload/v1612041026/html_ok_ln02va.png)
-HTML
-CSS
-Javascript
+-   [HTML](https://en.wikipedia.org/wiki/HTML)
+-   [CSS](https://en.wikipedia.org/wiki/CSS)
+-   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 Libraries:
 JQuery
 Bootstrap
 Googlefonts
-Github
-Git
-Balsamiq
-Autoprefixer CSS
-Real Favicon Generator- to create the sites favicon
-Beautifier
-Browserstack
+[Git](https://git-scm.com/) used as the version control in utilising [Gitpod](https://www.gitpod.io/) to add code and commit to Git/push to Github.
+[Github](https://github.com/) used to store the code following being pushed from Git.
+
+[Balsamiq](https://balsamiq.com/) used to create the wireframes during the "skeleton" phase of the project.
+[Autoprefixer CSS](https://autoprefixer.github.io/) used to check CSS browser compatibility.
+[Hover:CSS](https://ianlunn.github.io/Hover/) used to create additional CSS effects for the title page and buttons across the site
+[Youtube](https://www.youtube.com/) Used as a very handy reference for online JS tutorials and refreshers on JS code learned from the course
+[Real Favicon Generator](https://realfavicongenerator.net/)- to create the sites favicon
+[W3 Schools]()
+[Beautifier](https://beautifier.io/) used to beautify all code for the project.
+[Stack Overflow](https://stackoverflow.com/) as a reference for several tips on ...
+[Cloudinary](https://cloudinary.com/) used to store images for the project.
+[Browserstack](https://www.browserstack.com/) used to check the responsiveness of project across a range of devices and browsers
 
 Tools/Resources: Tania Rascia Tutorial, what the JS by Jim Morel
 Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
 
 
+## 4. Testing
 
+### 4.1 
+
+To make sure my HTML passed without any errors or warnings, I used [W3C HTML Validator](https://validator.w3.org/)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612041026/html_ok_ln02va.png)
 
