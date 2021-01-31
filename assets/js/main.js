@@ -39,7 +39,7 @@ let firstGuess = '';
 let secondGuess = '';
 let count = 0;
 let previousTarget = null;
-let delay = 1200;
+let delay = 1000;
 let gameStart = false;
 let gameOver = false;
 let timerId;

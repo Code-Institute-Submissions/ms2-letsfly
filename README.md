@@ -54,7 +54,7 @@ As a young child (and to this day, I will admit), I used to love spotting the di
 
 ### 1.2 Project Goals
 
-It was almost immediate that I decided to create a memory-card game for my second milestone project. By creating a fun and challenging exercise, the big drive in this project is to take as much learning experience from Javascript as much as possible.
+It was almost immediate that I decided to create a memory-card game for my second milestone project. By creating a fun and engaging game for the user, I wanted to create a challenging yet also fun exercise; the big drive in this project is to take as much learning experience from Javascript as much as possible.
 
 What is the challenge of the game?
 
@@ -134,6 +134,7 @@ I would have also included a short **quiz** below the memory card game for bonus
 -   [HTML](https://en.wikipedia.org/wiki/HTML)
 -   [CSS](https://en.wikipedia.org/wiki/CSS)
 -   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
 Libraries:
 JQuery
 Bootstrap
