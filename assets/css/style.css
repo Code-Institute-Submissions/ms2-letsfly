@@ -164,6 +164,29 @@
         margin-bottom: 60px;
     }
 
+     .card, .back, .front {
+        width: 60px;
+        height: 60px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin: 2px;
+    }
+}
+
+@media screen and (min-width:240px) and (max-width:320px) {
+    .title-homepage {
+        font-size: 2.65rem;
+        margin-top: auto;
+    }
+
+    .card,
+    .back,
+    .front {
+         height: 60px;
+         width: 60px;
+}
+
 }
 
 /*  CSS hover style taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
@@ -285,6 +308,7 @@
   transition: all .4s linear;
   transform-style: preserve-3d;
   margin: 5px;
+  background-color: transparent;
 }
 
 .card,
