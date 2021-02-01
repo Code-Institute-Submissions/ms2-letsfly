@@ -1,5 +1,5 @@
-# MS2 - Interactive Front End Milestone Project "Let's Fly"
-![Image](https://res.cloudinary.com/elerel/image/upload/v1611955073/homepg_i8jlyx.png)
+# MS2 - Interactive Front End Milestone Project "Take to the Skies"
+![Image](https://res.cloudinary.com/elerel/image/upload/v1612171587/amiresponsivems2_ln20wa.jpg)
 
 ### View the live project [here.](https://elerel.github.io/ms2-letsfly/)
 
@@ -154,6 +154,7 @@ Libraries:
 [Cloudinary](https://cloudinary.com/) used to store images for the project.
 [Browserstack](https://www.browserstack.com/) used to check the responsiveness of project across a range of devices and browsers
 [MobiReady](https://ready.mobi/) used to check if the site is mobile responsive
+[Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F) used to check how the responsive the design of the project was across different devices.
 
 Tools/Resources: Tania Rascia Tutorial, what the JS by Jim Morel
 Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
