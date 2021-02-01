@@ -126,6 +126,7 @@
 
 .how2play,
 .start {
+    margin-top: 10px;
     padding: 5px;
     background: radial-gradient(#e9e3c2, #b19b81);
     color: #007bff;
