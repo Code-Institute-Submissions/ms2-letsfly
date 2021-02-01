@@ -1,4 +1,4 @@
-// card data
+// set card data array:
 
 const cardsArray = [{
     name: 'aircanada',
@@ -34,7 +34,8 @@ const cardsArray = [{
 },
 ];
 
-// Set game variables
+// Set game variables:
+
 let firstGuess = '';
 let secondGuess = '';
 let count = 0;
@@ -45,20 +46,13 @@ let gameOver = false;
 let timerId;
 let firstClick = 0;
 
-
-// Set Audio variables
-
-/*
-const successSound = new Audio('assets/audio/airplane+jetstart2.mp3'); // correct guess sound
-const fail = new Audio('assets/audio/airplane+breakdown+1.mp3'); // wrong guess sound
-*/
-
+// Cards/grid created and displayed by manipulating the DOM:
 let game = document.getElementById('game');
 let grid = document.createElement('section');
 grid.setAttribute('class', 'grid');
 game.appendChild(grid);
 
-// Shuffle cards and display 2 sets of cards
+// Shuffle cards and display 2 sets of 8 cards:
 var gameGrid = cardsArray.concat(cardsArray).sort(function () {
   return 0.5 - Math.random();
 });
@@ -66,7 +60,6 @@ var gameGrid = cardsArray.concat(cardsArray).sort(function () {
 gameGrid.forEach(function (item) {
   var name = item.name,
       img = item.img;
-
 
   var card = document.createElement('div');
   card.classList.add('card');
@@ -92,8 +85,7 @@ const match = () => {
   });
 };
 
-
-//function to count how many moves made- code from https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
+//function to count how many moves made- code from  https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
 
 let flips = 0;
 let counter = document.querySelector('.flips');
@@ -120,6 +112,7 @@ grid.addEventListener('click', function (event) {
 
   var clicked = event.target;
 
+  //Below code from Tania Rascia tutorial https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/ 
   if (clicked.nodeName === 'SECTION' || 
       clicked === previousTarget || 
       clicked.parentNode.classList.contains('selected') || 
@@ -129,7 +122,7 @@ grid.addEventListener('click', function (event) {
 
   if (count < 2) {
     count++;
-    moveCounter(); //to count number of moves at first click
+    moveCounter(); //to count the number of moves at first click
     if (count === 1) {
       firstGuess = clicked.parentNode.dataset.name;
       console.log(firstGuess);
@@ -151,7 +144,20 @@ grid.addEventListener('click', function (event) {
   }
 });
 
-    //Function code from Stack Overflow- to set timer
+    //start the countdown when first card is clicked 
+    let gameBoard = document.querySelector('.board');
+    gameBoard.onclick = (function() {
+        firstClick++;
+        //remove onclick after first card is clicked
+        if (parseInt(firstClick) < 2) {
+            gameBoard.removeAttribute('onclick');
+            timeRemaining = 60,
+                display = document.querySelector('#timer');
+            gameTimer(timeRemaining, display);
+        }
+    });
+
+    //Function code from Stack Overflow- to set timer:
     function gameTimer(duration, display) {
         let timer = duration,
             minutes, seconds;
@@ -179,28 +185,18 @@ grid.addEventListener('click', function (event) {
                 loseGame(display, clearTimeout, timerId);
             }
         }, 1000);
-    }
+    };
 
+    // Lose game function code:
     const loseGame = (display, clearTimeout, timerId) => {
         display.textContent = "00:00";
 
-        setTimeout(()=>{
+        setTimeout(() => {
             $('#myModal').modal('toggle'); 
 
             clearTimeout(timerId);
         }, 2000)
-    }
+    };
 
-    
-    //start the countdown when first card is clicked 
-    let gameBoard = document.querySelector('.board');
-    gameBoard.onclick = (function() {
-        firstClick++;
-        //remove onclick after first card is clicked
-        if (parseInt(firstClick) < 2) {
-            gameBoard.removeAttribute('onclick');
-            timeRemaining = 60,
-                display = document.querySelector('#timer');
-            gameTimer(timeRemaining, display);
-        }
-    });
+
+
