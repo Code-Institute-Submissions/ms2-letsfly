@@ -301,11 +301,15 @@
     justify-content: center;
     display: block;
     width: fit-content;
+}
 
+.score-panel {
+    color: #FAB942;
+    margin-right: 35px;
 }
 
 #game {
-    margin-top: 2.5rem;
+    margin-top: 15px;
     
 }
 
@@ -371,9 +375,6 @@
 .home-btn:hover {
     text-decoration: none;
 }
- 
-
-
 
 /* Congratulations Modal styling */
 
