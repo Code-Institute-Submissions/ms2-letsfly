@@ -137,10 +137,14 @@ To add further to the site itself, I would have also included a short **quiz** b
 -   [CSS](https://en.wikipedia.org/wiki/CSS)
 -   [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
-Libraries:
-[JQuery]()
-[Bootstrap]()
-[Googlefonts]()
+### 3.2 Libraries:
+
+[JQuery](https://jquery.com/) used to make the site interactive
+[Bootstrap](https://getbootstrap.com/) used to help make the game responsive across all devices
+
+### 3.3 Tools:
+
+[Googlefonts](https://fonts.google.com/) used to source the font for the title of the game on both pages
 [Git](https://git-scm.com/) used as the version control in utilising [Gitpod](https://www.gitpod.io/) to add code and commit to Git/push to Github.
 [Github](https://github.com/) used to store the code following being pushed from Git.
 [Balsamiq](https://balsamiq.com/) used to create the wireframes during the "skeleton" phase of the project.
@@ -156,8 +160,11 @@ Libraries:
 [MobiReady](https://ready.mobi/) used to check if the site is mobile responsive
 [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F) used to check how the responsive the design of the project was across different devices.
 
-Tools/Resources: Tania Rascia Tutorial, what the JS by Jim Morel
-Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
+### 3.4 Resources: 
+- Tania Rascia's [Tutorial](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/) on how to build a Memory Card Game with Javascript
+- [What-the-JS](https://www.ci-resources.online/js.html) by Jim Morel
+- Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
+- Marina Ferreira's [tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&feature=emb_logo) on how to build a memory card game
 
 
 ## 4. Testing
