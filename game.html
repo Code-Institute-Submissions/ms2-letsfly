@@ -23,11 +23,7 @@
     <div class="game-container text-center">
       <i class="fas fa-star"> </i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
       <h3 class="start flips">Flips:<span id="result"> 0</span></h3>
-
-      <h3 class="start">Time:<span id="timer"> 00:00</span></h3>
-
-   
-      
+      <h3 class="start">Time:<span id="timer"> 00:00</span></h3> 
     </div>
 
     <div id="game" class="board"></div>
@@ -65,8 +61,16 @@
         </button>
       </div>
       <div class="modal-body">
-        <p>You scored 8 points! Way to go!</p>
+         <p>You made <span id ="finalMove"> </span> moves </p>
+                    <p>in <span id="totalTime"> </span> </p>
+                    <p>Rating:  <span id="starRating"></span></p>
       </div>
+
+      <!--   <div class="content-2">
+                    <p>You made <span id=finalMove> </span> moves </p>
+                    <p>in <span id=totalTime> </span> </p>
+                    <p>Rating:  <span id=starRating></span></p>
+                </div>-->
       <div class="modal-footer">
                    <a class="reset-btn mr-auto" aria-label="reset" href="game.html"><i class="fas fa-undo" aria-hidden="true"></i> Play Again?</a>
                    <a class="home-btn" aria-label="home" href="index.html"><i class="fas fa-home" aria-hidden="true"></i> Home</a>
