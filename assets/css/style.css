@@ -110,7 +110,7 @@
              
 .test {
     color: rgb(207, 161, 9);
-    font-size: 2vh;   
+    font-size: 15px;
 }
 
 
@@ -149,7 +149,7 @@
 @media screen and (max-width:420px) {
 
     .title-homepage {
-        font-size: 2.65em;
+        font-size: 2rem;
         font-weight: bold;
     }
 
@@ -177,8 +177,8 @@
 
 @media screen and (min-width:240px) and (max-width:320px) {
     .title-homepage {
-        font-size: 2.65rem;
-        margin-top: auto;
+        font-size: 2rem;
+        
     }
 
     .card,
@@ -186,7 +186,20 @@
     .front {
          height: 60px;
          width: 60px;
+    }
 }
+
+@media screen and (max-width: 740px) {
+    .title-homepage {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 1024px) {
+    .title-homepage {
+        font-size: 1rem;
+        margin-top: auto;
+    }
 
 }
 
