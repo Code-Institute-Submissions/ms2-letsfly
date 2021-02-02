@@ -24,8 +24,8 @@
 [**3. Technologies Used**](#3-technologies-used)
 - [3.1 Languages](#31-languages)
 - [3.2 Libraries](#32-libraries)
-- [3.3 Tools](#33-tools)
-- [3.4 Resources](#34-resources)
+- [3.3 Tools and Other Resources](#33-tools-and-other-resources)
+- [3.4 Code Resources](#34-code-resources)
 
 [**4. Testing**](#4-testing)
 - [4.1 Testing](#41-testing)
@@ -36,7 +36,8 @@
 - [5.2 Existing Bugs](#52-existing-bugs)
 
 [**6. Deployment**](#6-deployment)
-- [6.1 GitHub Pages](#61-github-pages)
+- [6.1 Deploy to Github Pages](#61-deploy-to-github-pages)
+- [6.2 Clone or Downloading](#62-cloning-or-downloading)
 
 [**7. Credits**](#7-credits)
 - [7.1 Content](#71-content)
@@ -107,6 +108,8 @@ The interactive memory card game simply has two sections: a welcome page with an
 - Wireframes for medium screens and tablet devices: <a href= "assets/docs/wireframes/MS2-tablet.pdf" target="_blank"> Tablet View</a>
 - Wireframes for smaller screens and mobiles: <a href= "assets/docs/wireframes/MS2-mobile.pdf" target="_blank"> Smartphone View</a>
 
+---
+
 ## 2. Features
 
 ### 2.1 Existing Features
@@ -131,6 +134,8 @@ For this project, I decided to split the site into **two** sections, a home page
 Had I more time to develop this game further, I would have definitely included **difficulty levels** ("Easy", "Medium" & "Hard" etc), with each level adding in more airline logos to match and less time as they progress, to make the game less of a play-once type of game and keep the player entertained longer. The game could be made more interesting if there were a facility to **track your score** and/or even present a leaderboard where one could submit their names and scores.
 To add further to the site itself, I would have also included a short **quiz** below the memory card game for bonus points perhaps, asking the player if they can recognize the logos and match them to the name of their associated airline. 
 
+---
+
 ## 3. Technologies Used
 
 ### 3.1 Languages
@@ -141,33 +146,34 @@ To add further to the site itself, I would have also included a short **quiz** b
 
 ### 3.2 Libraries:
 
-[JQuery](https://jquery.com/) used to make the site interactive
-[Bootstrap](https://getbootstrap.com/) used to help make the game responsive across all devices
+-   [JQuery](https://jquery.com/) used to make the site interactive
+-   [Bootstrap](https://getbootstrap.com/) used to help make the game responsive across all devices
 
-### 3.3 Tools:
+### 3.3 Tools and Other Resources:
 
-[Googlefonts](https://fonts.google.com/) used to source the font for the title of the game on both pages
-[Git](https://git-scm.com/) used as the version control in utilising [Gitpod](https://www.gitpod.io/) to add code and commit to Git/push to Github.
-[Github](https://github.com/) used to store the code following being pushed from Git.
-[Balsamiq](https://balsamiq.com/) used to create the wireframes during the "skeleton" phase of the project.
-[Autoprefixer CSS](https://autoprefixer.github.io/) used to check CSS browser compatibility.
-[Hover:CSS](https://ianlunn.github.io/Hover/) used to create additional CSS effects for the title page and buttons across the site
-[Youtube](https://www.youtube.com/) Used as a very handy reference for online JS tutorials and refreshers on JS code learned from the course
-[Real Favicon Generator](https://realfavicongenerator.net/)- to create the sites favicon
-[W3 Schools](https://www.w3schools.com/) used as a general reference guide for CSS tips and Javascript function queries.
-[Beautifier](https://beautifier.io/) used to beautify all code for the project.
-[Stack Overflow](https://stackoverflow.com/) as a reference for several tips on ...
-[Cloudinary](https://cloudinary.com/) used to store images for the project.
-[Browserstack](https://www.browserstack.com/) used to check the responsiveness of project across a range of devices and browsers
-[MobiReady](https://ready.mobi/) used to check if the site is mobile responsive
-[Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F) used to check how the responsive the design of the project was across different devices.
+-   [Googlefonts](https://fonts.google.com/) used to source the font for the title of the game on both pages
+-   [Git](https://git-scm.com/) used as the version control in utilising [Gitpod](https://www.gitpod.io/) to add code and commit to Git/push to Github.
+-   [Github](https://github.com/) used to store the code following being pushed from Git.
+-   [Balsamiq](https://balsamiq.com/) used to create the wireframes during the "skeleton" phase of the project.
+-   [Autoprefixer CSS](https://autoprefixer.github.io/) used to check CSS browser compatibility.
+-   [Hover:CSS](https://ianlunn.github.io/Hover/) used to create additional CSS effects for the title page and buttons across the site
+-   [Youtube](https://www.youtube.com/) Used as a very handy reference for online JS tutorials and refreshers on JS code learned from the course
+-   [Real Favicon Generator](https://realfavicongenerator.net/)- to create the sites favicon
+-   [W3 Schools](https://www.w3schools.com/) used as a general reference guide for CSS tips and Javascript function queries.
+-   [Beautifier](https://beautifier.io/) used to beautify all code for the project.
+-   [Stack Overflow](https://stackoverflow.com/) as a reference for several tips on ...
+-   [Cloudinary](https://cloudinary.com/) used to store images for the project.
+-   [Browserstack](https://www.browserstack.com/) used to check the responsiveness of project across a range of devices and browsers
+-   [MobiReady](https://ready.mobi/) used to check if the site is mobile responsive
+-   [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F) used to check how the responsive the design of the project was across different devices.
 
-### 3.4 Resources: 
+### 3.4 Code Resources: 
 - Tania Rascia's [Tutorial](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/) on how to build a Memory Card Game with Javascript
 - [What-the-JS](https://www.ci-resources.online/js.html) by Jim Morel
 - Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
 - Marina Ferreira's [tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&feature=emb_logo) on how to build a memory card game
 
+---
 
 ## 4. Testing
 
@@ -181,7 +187,6 @@ CSS Validator by Jigsaw:
 
 Google Mobile Friendly Test:
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612130347/Googlemobfrndtest_daqbni.jpg)
-
 
 
 
@@ -203,3 +208,50 @@ Google Mobile Friendly Test:
 >   *Each of the logos were chosen individually because of their difference in colour and appearance, yet some have the recurring colour *red* so that is offers some challenge to the game.*
 -	Easily navigate around the site, understand easily the rules of the game and return to the home page if needed
 >   *The site was designed to have a simple appearance to not overload of confuse the player, simply to offer clear instructions (by clicking on the How to Play button on the home page) and they can also return to the home page by clicking the home button on the top left corner of the game page.*
+
+
+---
+
+## 6. Deployment
+
+### 6.1 Deploy to GitHub Pages
+
+The site was deployed to GitHub pages using these steps below:
+    1. All code for this project was created in Gitpod, a local IDE (Integrated Development Environment)
+    2. The code was pushed to Github stored in a [repository](https://github.com/elerel/ms2-letsfly)
+    3. Once in the repository, I selected "Settings" and scrolled down to the Github pages section.
+    4. Under "Source" in the drop down, "Master-Branch" was selected.
+    5. Following this, the site was then published to GitHub Pages and the site URL was displayed.
+
+### 6.2 Cloning or Downloading
+
+-   The code can be run locally by cloning or downloading. 
+-   This is done by clicking on the green "code" button and from here, you can then select either clone or download. 
+-   You can choose to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
+-   If you choose the Download ZIP option, a link to download the ZIP file is provided which can be unzipped on the local machine.
+
+---
+
+## 7. Credits
+
+### 7.1 Content
+
+### 7.2 Media
+
+-   The homepage image was downloaded free from [Pexels](https://www.pexels.com/search/airplane/)
+-   The airline logos (of which each belong to their respective airline, as this project is for educational purposes only) were downloaded from Cal Stevens' Github Repository [Calda/Airline Logos](https://github.com/calda/Airline-Logos)
+
+### 7.3 Code
+
+Code snippets taken from Tania Rascia 
+stackoverflow
+Scotch.io for their star rating
+Bootstrap (modals)
+
+### 7.4 Acknowledgements
+
+For this project, my big thanks goes out to:
+- My mentor, *Nishant Kumar* for his relentless support and guidance given throughout this time.
+- The Slack Community, and Jim Morel for his very useful site "What the JS" which was incredibly helpful
+- Code Institute Student Care for their guidance in the past few weeks
+- My husband and family for their patience 
