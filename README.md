@@ -66,7 +66,9 @@ As a site user:
 -	I want a site that is easy to navigate through and to play a game that is fun and interactive
 -	To be able to change the level of the game (easy, medium hard)
 -	To be able to track my progress as I play
--	To be able to see my results post game or see how I fare against other players
+-	To be able to see my results post game and how long/how many moves it took to complete the game
+-   To easily find a way to restart the game if I made too many mistakes
+-   To easily recognise the airline logos and that they are all unique logos and not all look similar, i.e. colours
 -	Easily navigate around the site, understand easily the rules of the game and return to the home page if needed
 
 As a site developer, I would like the site to accomplish:
@@ -182,3 +184,22 @@ Google Mobile Friendly Test:
 
 
 
+
+
+
+### 4.2 Testing User Stories
+
+-	I want a site that is easy to navigate through and to play a game that is fun and interactive
+>   *The site provides a clean and non over-stimulating appearance offering the user a clear navigation on how to play the game. The game provides interactivity when the user clicks on each of the cards and they can chose to reply their game should they wish.*
+-	To be able to change the level of the game (easy, medium hard)
+>   *Unfortunately due to time contraints, I would have included levels in the game so that this could keep the user continuing to play the game. The game offers one standard level but the user can replay and beat their previous result.*
+-	To be able to track my progress as I play
+>   *Above the cards, the player can track their progress with the use of the countdown timer and how many flips or moves they have made.*
+-	To be able to see my results post game and how long/how many moves it took to complete the game
+>   *At the end of each game, the player is given the total time they took to complete the game and is awarded with a star rating based on the time they took to complete.*
+-   To easily find a way to restart the game if I made too many mistakes
+>   *The player can choose to restart the game at any time by clicking on the Take to the Skies logo or the restart button at the top left corner of the page.*
+-   To easily recognise the airline logos and that they are all unique logos and not all look similar, i.e. colours
+>   *Each of the logos were chosen individually because of their difference in colour and appearance, yet some have the recurring colour *red* so that is offers some challenge to the game.*
+-	Easily navigate around the site, understand easily the rules of the game and return to the home page if needed
+>   *The site was designed to have a simple appearance to not overload of confuse the player, simply to offer clear instructions (by clicking on the How to Play button on the home page) and they can also return to the home page by clicking the home button on the top left corner of the game page.*
