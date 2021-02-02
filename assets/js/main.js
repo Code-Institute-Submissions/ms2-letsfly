@@ -46,7 +46,7 @@ let gameOver = false;
 let timerId;
 let firstClick = 0;
 
-// Cards/grid created and displayed by manipulating the DOM:
+// Cards/grid created and displayed by manipulating the DOM (code from Tania Rascia Tutorial: https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/):
 let game = document.getElementById('game');
 let grid = document.createElement('section');
 grid.setAttribute('class', 'grid');
@@ -57,6 +57,7 @@ var gameGrid = cardsArray.concat(cardsArray).sort(function () {
   return 0.5 - Math.random();
 });
 
+// Function to create card div for each object and display images from Tania Rascia Tutorial: https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
 gameGrid.forEach(function (item) {
   var name = item.name,
       img = item.img;
@@ -71,7 +72,8 @@ gameGrid.forEach(function (item) {
   var back = document.createElement('div');
   back.classList.add('back');
   back.style.backgroundImage = 'url(' + img + ')';
-
+  
+  // Append the div to the grid section:
   grid.appendChild(card);
   card.appendChild(front);
   card.appendChild(back);
@@ -79,7 +81,7 @@ gameGrid.forEach(function (item) {
 
 //Function for matching cards- loops through all selected cards when called, then match class added
 const match = () => {
-  var selected = document.querySelectorAll('.selected');
+  let selected = document.querySelectorAll('.selected');
   selected.forEach((card) => {
     card.classList.add('match')
   });
@@ -94,13 +96,15 @@ function moveCounter() {
     counter.innerHTML = flips + ' flips'; 
 };
 
-var resetGuesses = function resetGuesses() {
+// code from Tania Rascia's tutorial- to allow multiple guesses/reset guess count after 2
+let resetGuesses = function resetGuesses() {
   firstGuess = '';
   secondGuess = '';
   count = 0;
   previousTarget = null;
 
-  var selected = document.querySelectorAll('.selected');
+
+  let selected = document.querySelectorAll('.selected');
   selected.forEach(function (card) {
     card.classList.remove('selected');
   });
@@ -108,12 +112,14 @@ var resetGuesses = function resetGuesses() {
 
 let matchCards = 0;
 
+// Adding event listener to the grid: 
 grid.addEventListener('click', function (event) {
 
-  var clicked = event.target;
+// Event target being the clicked item:
+  let clicked = event.target;
 
   //Below code from Tania Rascia tutorial https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/ 
-  if (clicked.nodeName === 'SECTION' || 
+  if (clicked.nodeName === 'SECTION' || // Only selected divs inside the grid to be selected, not the grid section itself
       clicked === previousTarget || 
       clicked.parentNode.classList.contains('selected') || 
       clicked.parentNode.classList.contains('match')) {
@@ -124,18 +130,19 @@ grid.addEventListener('click', function (event) {
     count++;
     moveCounter(); //to count the number of moves at first click
     if (count === 1) {
-      firstGuess = clicked.parentNode.dataset.name;
+      firstGuess = clicked.parentNode.dataset.name; //assign the first guess
       console.log(firstGuess);
       clicked.parentNode.classList.add('selected');
     } else {
       secondGuess = clicked.parentNode.dataset.name;
-      console.log(secondGuess);
+      console.log(secondGuess); // assign the second guess
       clicked.parentNode.classList.add('selected');
     }
 
+    
     if (firstGuess && secondGuess) {
-      if (firstGuess === secondGuess) {
-        matchCards++;
+      if (firstGuess === secondGuess) { // if both guesses match
+        matchCards++; //apply the match function
         setTimeout(match, delay);
       }
       setTimeout(resetGuesses, delay);
