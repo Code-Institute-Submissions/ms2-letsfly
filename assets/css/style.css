@@ -177,7 +177,7 @@
 
 @media screen and (min-width:240px) and (max-width:320px) {
     .title-homepage {
-        font-size: 2rem;
+        font-size: 1.5rem;
         
     }
 
@@ -191,13 +191,13 @@
 
 @media screen and (max-width: 740px) {
     .title-homepage {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
 
 @media screen and (min-width: 660px) and (max-width: 1024px) {
     .title-homepage {
-        font-size: 1rem;
+        font-size: 1.65rem;
         margin-top: auto;
     }
 
@@ -360,7 +360,11 @@
 }
 
 .match .front {
-  background:  #FAB942 !important;
+  background-image: none;
+  
+}
+.card, .match {
+    border: none;
 }
 
 /* Gave over modal styling */
