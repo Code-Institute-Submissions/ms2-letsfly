@@ -24,7 +24,8 @@
 [**3. Technologies Used**](#3-technologies-used)
 - [3.1 Languages](#31-languages)
 - [3.2 Libraries](#32-libraries)
-- [3.3 Tools and Other Resources](#33-tools-and-other-resources)
+- [3.3 Version Control](#33-version-control)
+- [3.4 Tools and Other Resources](#33-tools-and-other-resources)
 - [3.4 Code Resources](#34-code-resources)
 
 [**4. Testing**](#4-testing)
@@ -148,13 +149,17 @@ To add further to the site itself, I would have also included a short **quiz** b
 
 -   [JQuery](https://jquery.com/) used to make the site interactive
 -   [Bootstrap](https://getbootstrap.com/) used to help make the game responsive across all devices
-
-### 3.3 Tools and Other Resources:
-
 -   [Googlefonts](https://fonts.google.com/) used to source the font for the title of the game on both pages
--   [Git](https://git-scm.com/) used as the version control in utilising [Gitpod](https://www.gitpod.io/) to add code and commit to Git/push to Github.
--   [Github](https://github.com/) used to store the code following being pushed from Git.
 -   [Balsamiq](https://balsamiq.com/) used to create the wireframes during the "skeleton" phase of the project.
+-   [Font Awesome](https://fontawesome.com/) used frequently to provide icons for the modals and game page.
+
+### 3.3 Version control
+
+-   [Git](https://git-scm.com/) used as the version control in utilising [Gitpod](https://www.gitpod.io/) to add code and commit to Git/push to Github.
+-   [Github](https://github.com/) used to store the code following being pushed from Git.  
+
+### 3.4 Tools and Other Resources:
+
 -   [Autoprefixer CSS](https://autoprefixer.github.io/) used to check CSS browser compatibility.
 -   [Hover:CSS](https://ianlunn.github.io/Hover/) used to create additional CSS effects for the title page and buttons across the site
 -   [Youtube](https://www.youtube.com/) Used as a very handy reference for online JS tutorials and refreshers on JS code learned from the course
@@ -168,7 +173,7 @@ To add further to the site itself, I would have also included a short **quiz** b
 -   [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F) used to check how the responsive the design of the project was across different devices.
 
 ### 3.4 Code Resources: 
-- Tania Rascia's [Tutorial](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/) on how to build a Memory Card Game with Javascript
+- [Tania Rascia's Tutorial](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/) on how to build a Memory Card Game with Javascript
 - [What-the-JS](https://www.ci-resources.online/js.html) by Jim Morel
 - Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
 - Marina Ferreira's [tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&feature=emb_logo) on how to build a memory card game
@@ -254,4 +259,4 @@ For this project, my big thanks goes out to:
 - My mentor, **Nishant Kumar** for his relentless support and guidance given throughout this time.
 - The Slack Community, and Jim Morel for his very useful site "What the JS" which was incredibly helpful
 - Code Institute Student Care for their guidance in the past few weeks
-- My husband and family for their patience 
+- My husband for his support and patience, and a little shout-out to my little girl, encouraging me that my game was not boring and not to give up!
