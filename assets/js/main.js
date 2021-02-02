@@ -167,8 +167,8 @@ grid.addEventListener('click', function (event) {
     function bigWinModal(flips) {
         let winModal = document.querySelector('.winModal');
         winModal.style.visibility = 'visible';
-        winModal.querySelector('#finalMove').innerHTML = `You made ${flips} flips!`;
-        winModal.querySelector('#totalTime').innerHTML = `with  ${minutes} + ${seconds} seconds left!`; // code here not working- ask Nishant about this
+        winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips!`;
+        winModal.querySelector('#totalTime').innerHTML = `with only ${timeRemaining} seconds left!`; // code here not working- ask Nishant about this
 
     };
 
