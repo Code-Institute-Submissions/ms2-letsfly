@@ -217,11 +217,11 @@ Google Mobile Friendly Test:
 ### 6.1 Deploy to GitHub Pages
 
 The site was deployed to GitHub pages using these steps below:
-    1. All code for this project was created in Gitpod, a local IDE (Integrated Development Environment)
-    2. The code was pushed to Github stored in a [repository](https://github.com/elerel/ms2-letsfly)
-    3. Once in the repository, I selected "Settings" and scrolled down to the Github pages section.
-    4. Under "Source" in the drop down, "Master-Branch" was selected.
-    5. Following this, the site was then published to GitHub Pages and the site URL was displayed.
+1. All code for this project was created in Gitpod, a local IDE (Integrated Development Environment)
+2. The code was pushed to Github stored in a [repository](https://github.com/elerel/ms2-letsfly)
+3. Once in the repository, I selected "Settings" and scrolled down to the Github pages section.
+4. Under "Source" in the drop down, "Master-Branch" was selected.
+5. Following this, the site was then published to GitHub Pages and the site URL was displayed.
 
 ### 6.2 Cloning or Downloading
 
@@ -251,7 +251,7 @@ Bootstrap (modals)
 ### 7.4 Acknowledgements
 
 For this project, my big thanks goes out to:
-- My mentor, *Nishant Kumar* for his relentless support and guidance given throughout this time.
+- My mentor, **Nishant Kumar** for his relentless support and guidance given throughout this time.
 - The Slack Community, and Jim Morel for his very useful site "What the JS" which was incredibly helpful
 - Code Institute Student Care for their guidance in the past few weeks
 - My husband and family for their patience 
