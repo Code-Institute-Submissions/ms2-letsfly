@@ -25,7 +25,7 @@ const cardsArray = [{
     img: 'assets/img/JAL.png'
 },
 {
-    name: 'air lingus',
+    name: 'aer lingus',
     img: 'assets/img/EIN.png'
 },
 {
