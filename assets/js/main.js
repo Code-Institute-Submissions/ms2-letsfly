@@ -88,7 +88,6 @@ const match = () => {
 };
 
 //function to count how many moves made- code from  https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
-
 let flips = 0;
 let counter = document.querySelector('.flips');
 function moveCounter() {
@@ -164,6 +163,20 @@ grid.addEventListener('click', function (event) {
         }
     });
 
+    //Function for win modal
+    function bigWinModal(flips) {
+        let winModal = document.querySelector('.winModal');
+        winModal.style.visibility = 'visible';
+        winModal.querySelector('#finalMove').innerHTML = `You made ${flips} flips!`;
+        winModal.querySelector('#totalTime').innerHTML = `with  ${minutes} + ${seconds} seconds left!`; // code here not working- ask Nishant about this
+
+    };
+
+    // Function code to set star rating:
+
+
+
+
     //Function code from Stack Overflow- to set timer:
     function gameTimer(duration, display) {
         let timer = duration,
@@ -188,6 +201,7 @@ grid.addEventListener('click', function (event) {
             if (matchCards === 8) {
                 clearTimeout(timerId);
                  $('#mywinModal').modal('toggle');
+                 bigWinModal(flips, timer);
             }else if(timerId && timer <= 0){
                 loseGame(display, clearTimeout, timerId);
             }
