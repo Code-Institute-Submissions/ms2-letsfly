@@ -41,8 +41,10 @@ let secondGuess = '';
 let count = 0;
 let previousTarget = null;
 let delay = 1000;
+/*
 let gameStart = false;
-let gameOver = false;
+let gameOver = false;*/
+
 let timerId;
 let firstClick = 0;
 
@@ -93,6 +95,10 @@ let counter = document.querySelector('.flips');
 function moveCounter() {
     flips++;
     counter.innerHTML = flips + ' flips'; 
+
+    // setting star rating based on number of moves:
+    
+
 };
 
 // code from Tania Rascia's tutorial- to allow multiple guesses/reset guess count after 2
@@ -163,12 +169,17 @@ grid.addEventListener('click', function (event) {
         }
     });
 
+    // star rating:  
+    let starRating = document.querySelector(".stars").innerHTML;
+    let starsList = document.querySelectorAll(".stars li");
+
     //Function for win modal
     function bigWinModal(flips) {
         let winModal = document.querySelector('.winModal');
         winModal.style.visibility = 'visible';
         winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips!`;
         winModal.querySelector('#totalTime').innerHTML = `with only ${timeRemaining} seconds left!`; // code here not working- ask Nishant about this
+        winModal.querySelector('#starRating').innerHTML = `Your rating: ${starRating}`;
 
     };
 
@@ -218,6 +229,8 @@ grid.addEventListener('click', function (event) {
             clearTimeout(timerId);
         }, 2000)
     };
+
+
 
 
 
