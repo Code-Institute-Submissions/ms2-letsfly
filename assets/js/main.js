@@ -180,10 +180,6 @@ grid.addEventListener('click', function (event) {
         }
     });
 
-    /* star rating:  
-    let starRating = document.querySelector(".stars").innerHTML;
-    let starsList = document.querySelectorAll(".stars li");*/
-
     //Function for win modal
     function bigWinModal(flips) {
         let starRating = document.querySelector(".stars").innerHTML;
