@@ -41,9 +41,9 @@ let secondGuess = '';
 let count = 0;
 let previousTarget = null;
 let delay = 1000;
-/*
-let gameStart = false;
-let gameOver = false;*/
+const stars = document.querySelectorAll(".fa-star");
+
+
 
 let timerId;
 let firstClick = 0;
@@ -94,11 +94,22 @@ let flips = 0;
 let counter = document.querySelector('.flips');
 function moveCounter() {
     flips++;
-    counter.innerHTML = flips + ' flips'; 
+    counter.innerHTML = `Flips: ${flips}`; 
 
-    // setting star rating based on number of moves:
-    
-
+    // setting star rating based on number of moves: code from Sandra Israel https://github.com/sandraisrael/Memory-Game-fend/blob/master/js/app.js and modified
+          if (flips > 34 && flips < 44) { // stars rating based on 34 flips and below 3 stars, 39 and 44 moves two stars and over 44 moves 1 star
+        for (i = 0; i < 3; i++) {
+            if (i > 1) {
+                stars[i].style.visibility = "collapse";
+            }
+        }
+    } else if (flips > 44) {
+        for (i = 0; i < 3; i++) {
+            if (i > 0) {
+                stars[i].style.visibility = "collapse";
+            }
+        }
+    }
 };
 
 // code from Tania Rascia's tutorial- to allow multiple guesses/reset guess count after 2
@@ -124,7 +135,7 @@ grid.addEventListener('click', function (event) {
   let clicked = event.target;
 
   //Below code from Tania Rascia tutorial https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/ 
-  if (clicked.nodeName === 'SECTION' || // Only selected divs inside the grid to be selected, not the grid section itself
+  if (clicked.nodeName === 'SECTION' || 
       clicked === previousTarget || 
       clicked.parentNode.classList.contains('selected') || 
       clicked.parentNode.classList.contains('match')) {
@@ -178,15 +189,13 @@ grid.addEventListener('click', function (event) {
         let winModal = document.querySelector('.winModal');
         winModal.style.visibility = 'visible';
         winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips!`;
-        winModal.querySelector('#totalTime').innerHTML = `with only ${timeRemaining} seconds left!`; // code here not working- ask Nishant about this
-        winModal.querySelector('#starRating').innerHTML = `Your rating: ${starRating}`;
+        winModal.querySelector('#totalTime').innerHTML = `only ${timeRemaining} seconds`; // code here not working- ask Nishant about this
+        //winModal.getElementById('#starRating').innerHTML = ` ${starRating}`;
+        //winModal.querySelector("#starRating").innerHTML = starRating;
+        document.getElementById("starRating").innerHTML = starRating; // cant get this code to work- as above ask Nishant!
+        
 
     };
-
-    // Function code to set star rating:
-
-
-
 
     //Function code from Stack Overflow- to set timer:
     function gameTimer(duration, display) {
