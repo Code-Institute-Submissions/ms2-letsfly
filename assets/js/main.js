@@ -85,7 +85,7 @@ gameGrid.forEach(function (item) {
 const match = () => {
   let selected = document.querySelectorAll('.selected');
   selected.forEach((card) => {
-    card.classList.add('match')
+    card.classList.add('match');
   });
 };
 
@@ -110,7 +110,7 @@ function moveCounter() {
             }
         }
     }
-};
+}
 
 // code from Tania Rascia's tutorial- to allow multiple guesses/reset guess count after 2
 let resetGuesses = function resetGuesses() {
@@ -180,24 +180,22 @@ grid.addEventListener('click', function (event) {
         }
     });
 
-    // star rating:  
+    /* star rating:  
     let starRating = document.querySelector(".stars").innerHTML;
-    let starsList = document.querySelectorAll(".stars li");
+    let starsList = document.querySelectorAll(".stars li");*/
 
     //Function for win modal
     function bigWinModal(flips) {
+        let starRating = document.querySelector(".stars").innerHTML;
+        let starsList = document.querySelectorAll(".stars li");
         let winModal = document.querySelector('.winModal');
         winModal.style.visibility = 'visible';
         winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips!`;
         winModal.querySelector('#totalTime').innerHTML = `only ${timeRemaining} seconds`; // code here not working- ask Nishant about this
-        //winModal.getElementById('#starRating').innerHTML = ` ${starRating}`;
-        //winModal.querySelector("#starRating").innerHTML = starRating;
-        document.getElementById("starRating").innerHTML = starRating; // cant get this code to work- as above ask Nishant!
-        
+        winModal.querySelector('#starRating').innerHTML = ` ${starRating}`;
+    }
 
-    };
-
-    //Function code from Stack Overflow- to set timer:
+    //Function code from Stack Overflow (https://stackoverflow.com/questions/20618355/the-simplest-possible-javascript-countdown-timer) to set timer:
     function gameTimer(duration, display) {
         let timer = duration,
             minutes, seconds;
@@ -226,7 +224,7 @@ grid.addEventListener('click', function (event) {
                 loseGame(display, clearTimeout, timerId);
             }
         }, 1000);
-    };
+    }
 
     // Lose game function code:
     const loseGame = (display, clearTimeout, timerId) => {
@@ -236,7 +234,7 @@ grid.addEventListener('click', function (event) {
             $('#myModal').modal('toggle'); 
 
             clearTimeout(timerId);
-        }, 2000)
+        }, 2000);
     };
 
 
