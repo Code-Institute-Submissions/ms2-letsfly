@@ -292,6 +292,7 @@
       color: #FAB942;
 }
 
+
 .game-container {
     color: #FAB942;
     font-family: 'Source Sans Pro', sans-serif;
@@ -306,6 +307,13 @@
 .score-panel {
     color: #FAB942;
     margin-right: 35px;
+   
+}
+
+.score-panel ul {
+     list-style-type: none;
+    display: flex;
+    margin: 2px;
 }
 
 #game {
@@ -382,7 +390,10 @@
 
 /* Congratulations Modal styling */
 
-
+  #starRating li {
+    display: inline-block;
+    list-style-type: none;
+  }
 
 /* Footer Styling */
 .footer {
