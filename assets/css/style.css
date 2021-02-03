@@ -390,8 +390,8 @@
 
 /* Congratulations Modal styling */
 
-  #starRating li {
-    display: inline-block;
+  #starRating {
+    display: inline-flex;
     list-style-type: none;
   }
 
