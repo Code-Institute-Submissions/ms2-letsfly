@@ -139,10 +139,12 @@
     font-family: "Source Sans Pro";
     text-align: center;  
     width: 140px;
+    text-decoration: none;
 }
 
 .start:hover {
     text-decoration: none;
+    color: #007bff;
 }
 
 /* Media Queries */
