@@ -5,28 +5,28 @@ const cardsArray = [{
     img: 'assets/img/ACA.png'
 },
 {
-    name: 'hawaii',
-    img: 'assets/img/HAL.png'
+    name: 'japan air',
+    img: 'assets/img/JAL.png'
 },
 {
     name: 'turkish',
     img: 'assets/img/THY.png'
 },
 {
-    name: 'iceland',
-    img: 'assets/img/ICE.png'
+    name: 'thai',
+    img: 'assets/img/THA.png'
 },
 {
-    name: 'emirates',
-    img: 'assets/img/UAE.png'
+    name: 'malaysian',
+    img: 'assets/img/MAS.png'
 },
 {
-    name: 'jal',
-    img: 'assets/img/JAL.png'
+    name: 'hainan',
+    img: 'assets/img/CHH2.png'
 },
 {
     name: 'aer lingus',
-    img: 'assets/img/EIN.png'
+    img: 'assets/img/ei.JPG'
 },
 {
     name: 'Swiss',
