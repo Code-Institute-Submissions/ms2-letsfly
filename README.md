@@ -29,7 +29,7 @@
 - [3.4 Code Resources](#34-code-resources)
 
 [**4. Testing**](#4-testing)
-- [4.1 Testing](#41-testing)
+- [4.1 Online Validation](#41-online-validation)
 - [4.2 Testing User Stories](#42-testing-user-stories)
 
 [**5. Bugs and Solutions**](#5-bugs-and-solutions)
@@ -182,22 +182,33 @@ To add further to the site itself, I would have also included a short **quiz** b
 
 ## 4. Testing
 
-### 4.1 
+### 4.1 Online Validation
 
-To make sure my HTML passed without any errors or warnings, I used [W3C HTML Validator](https://validator.w3.org/)
+To make sure the code for my project passed without any errors or warnings, I used the following online validators:
+
+-   [W3C HTML Validator:](https://validator.w3.org/)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612041026/html_ok_ln02va.png)
 
-CSS Validator by Jigsaw:
+-   [CSS Validator by Jigsaw:](https://jigsaw.w3.org/css-validator/)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612041034/CSS_validator_qqveko.png)
 
-Google Mobile Friendly Test:
+-   [JShint](https://jshint.com/)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612476597/jshintreport_qgqhu6.jpg)
+
+-   [Google Mobile Friendly Test:](https://search.google.com/test/mobile-friendly)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612130347/Googlemobfrndtest_daqbni.jpg)
 
+-   [LightHouse Report: Mobile Device](https://developers.google.com/web/tools/lighthouse)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612476695/lighthousescoremobile_wvbpnk.jpg)
 
+-   [LightHouse Report: Desktop](https://developers.google.com/web/tools/lighthouse)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612476765/lighthousescoredesktop_v2d1eb.jpg)
 
-
+Further notes on the above reports and more are discussed in the [Testing Section](TESTING.md)
 
 ### 4.2 Testing User Stories
+
+#### As a Site User:
 
 -	I want a site that is easy to navigate through and to play a game that is fun and interactive
 >   *The site provides a clean and non over-stimulating appearance offering the user a clear navigation on how to play the game. The game provides interactivity when the user clicks on each of the cards and they can chose to reply their game should they wish.*
@@ -214,7 +225,24 @@ Google Mobile Friendly Test:
 -	Easily navigate around the site, understand easily the rules of the game and return to the home page if needed
 >   *The site was designed to have a simple appearance to not overload of confuse the player, simply to offer clear instructions (by clicking on the How to Play button on the home page) and they can also return to the home page by clicking the home button on the top left corner of the game page.*
 
+### As a Site Developer:
 
+As a site developer, I would like the site to accomplish:
+-   Shuffle the cards on reload or start of game
+>   *To make the site as simple as possible, I opted for the firstClick function instead of a separate button to display "start" so that the site's content was kept simple and clean. The instructions on the index page also informs the user that the game begins on their first click of the their chosen card.* 
+-	Display the progress of the game to the user with a timer
+>   *Instead of starting the clock at zero, I decided to make the game a little more challenging by providing instead a countdown timer of 60seconds/1 minute to complete the game.*
+-	Use a star rating other than points to simplify the game
+>   *Staying in the tune of keeping things simple, I opted for the star rating instead of points as this I found was a more simple scoring method and appropriate for younger players.*
+-	A restart button to allow the user reset the game, timer and star rating
+>   *This is provided in the top-left-hand corner of the page and the user can also click the title above the game also should they wish to restart.*
+-	A well done/congratulations modal to appear when the player has completed the game
+>   *As soon as the player has completed all matches, they are congratulated with a message informing them of their flips count and a star rating.*
+-	A “game over” modal to appear to let the player know they ran out of time and to give the player the chance to replay the game
+>   *The game over message appears as soon as the clock reaches zero and they have an option to restart the game or return to the home page.*
+
+
+A full testing report can be found here: [TESTING.md](TESTING.md)
 ---
 
 ## 6. Deployment
