@@ -43,8 +43,6 @@ let previousTarget = null;
 let delay = 1000;
 const stars = document.querySelectorAll(".fa-star");
 
-
-
 let timerId;
 let firstClick = 0;
 

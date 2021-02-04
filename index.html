@@ -3,13 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="memory card game with the theme of airline logos for all ages">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Take to the Skies Memory Game</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="icon" type="img/png" href="assets/img/airplane-fav.png" />   
+    <link rel="icon" type="img/png" href="assets/img/airplane-fav.png" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -17,16 +20,17 @@
     <div class="background-img">
         <div class="game-name">
             <h1 class="title-homepage hvr-wobble-vertical">Take to the Skies!</h1>
-            <p class="test">Test your memory on airline logos</p>
+            <p class="test">Test your memory with airline logos</p>
         </div>
-        
-<div class="flex-parent jc-center ">
-  <button class="how2play hvr-bounce-in" type="button" data-toggle="modal" data-target="#instructionsModal">How to Play</button>
-</div>
 
-<div class="flex-parent jc-center">
-  <a class="start hvr-bounce-in"  href="game.html" role="button"> Start Game</a>
-</div>
+        <div class="flex-parent jc-center">
+            <button class="how2play hvr-bounce-in" type="button" data-toggle="modal"
+                data-target="#instructionsModal">How to Play</button>
+        </div>
+
+        <div class="flex-parent jc-center">
+            <a class="start hvr-bounce-in" href="game.html" role="button"> Start Game</a>
+        </div>
 
         <!-- How to Play Modal-->
         <div class="modal" tabindex="-1" role="dialog" id="instructionsModal">
@@ -45,7 +49,8 @@
                             <li><i class="fas fa-plane"></i> Click on any card to begin the game</li>
                             <li><i class="fas fa-plane"></i> Reveal the cards as you click, using your memory to match
                                 all cards</li>
-                            <li><i class="fas fa-plane"></i> Make as little moves in the shortest time possible </li>
+                            <li><i class="fas fa-plane"></i> You have <strong>1 minute </strong> to find them all: make
+                                as few moves as possible to get a great star rating! </li>
                             <li><i class="fas fa-plane"></i> Click <i class="fa fa-redo"> </i> if you wish to restart
                                 your
                                 game</li>
