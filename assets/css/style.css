@@ -113,7 +113,6 @@
     font-size: 15px;
 }
 
-
 .flex-parent {
   display: flex;
   margin: 0.625rem;
@@ -139,7 +138,6 @@
     font-family: "Source Sans Pro";
     text-align: center;  
     width: 140px;
-    text-decoration: none;
 }
 
 .start:hover {
@@ -205,7 +203,7 @@
 
 }
 
-/*  CSS hover style taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
+/*  CSS hover style code taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 .hvr-bounce-in {
   display: inline-block;
   vertical-align: middle;
@@ -226,14 +224,9 @@
 .modal-content {
     text-align: center;
     color: #FAB942; 
-    background:rgb(40, 46, 138);  
-    
+    background:rgb(40, 46, 138);     
 }
 
-.thumbsup {
-    display: block;
-    margin: auto;
-}
 .modal-title {
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;

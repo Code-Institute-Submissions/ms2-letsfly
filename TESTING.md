@@ -6,6 +6,8 @@
 
 ## Online Validators
 
+incl Responsinator
+
 HTML, CSS and JShint were all used to validate the code for this project. Both HTML and CSS results returned no warnings or issues. JShint 
 
 ## Testing User Stories
