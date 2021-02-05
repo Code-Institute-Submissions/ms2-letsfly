@@ -14,3 +14,8 @@ HTML, CSS and JShint were all used to validate the code for this project. Both H
 
 ## Bugs
 Expected - Tested the site by doing this - Result(The site did not respond due to abc or the site acted as expected and did Y) - Fix (I did Z to the code because D etc)
+
+Bugs that needed addressing:
+
+
+[Back to README](README.md)

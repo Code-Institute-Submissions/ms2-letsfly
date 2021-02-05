@@ -38,7 +38,8 @@
 
 [**6. Deployment**](#6-deployment)
 - [6.1 Deploy to Github Pages](#61-deploy-to-github-pages)
-- [6.2 Clone or Downloading](#62-cloning-or-downloading)
+- [6.2 Clone or Downloading](#62-cloning-or-forking)
+- [6.3 To Fork the Project](#63-to-fork-the-project)
 
 [**7. Credits**](#7-credits)
 - [7.1 Content](#71-content)
@@ -52,15 +53,12 @@
 
 ### 1.1 Overview
 
-As a young child (and to this day, I will admit), I used to love spotting the different airlines from the sky by their airline logos. It used to keep us quite entertained as children, so why not turn it into a memory card matching game? I chose this project simply as there has never been a better time to switch off from the news around us lately and maybe even exercise our brains with this fun card- matching game. It is designed to be responsive on a wide range of devices and is a clean and simple site to navigate around for users of all ages to enjoy.
+As a young child (and to this day, I will admit), I used to love spotting the different airlines from the sky by their airline logos. I chose this project simply as there has never been a better time to switch off from the news around us lately and maybe even exercise our brains with this fun card- matching game. It is designed to be responsive on a wide range of devices and is a clean and simple site to navigate around for users of all ages to enjoy.
+What is the challenge of the game? With one standard level, the aim is to match all pairs in the given timeframe of 1 minute, with as few clicks/flips as possible to earn the highest score of 3 stars. The more card flips the user plays, the lower stars they receive.
 
 ### 1.2 Project Goals
 
-It was almost immediate that I decided to create a memory-card game for my second milestone project. By creating a fun and engaging game for the user, I wanted to create a challenging yet also fun exercise; the big drive in this project is to take as much learning experience from Javascript as much as possible.
-
-What is the challenge of the game?
-
-To match as many pairs in as little time as possible and the player is rewarded points for every match they find- bonus points for every second remaining.
+It was almost immediate that I decided to create a memory-card game for my second milestone project. By creating a fun and engaging game for the user, I wanted to create a challenging yet also fun exercise; the big drive in this project is to perform as much learning practise from Javascript as possible.
 
 ### 1.3 User Stories
 
@@ -83,7 +81,7 @@ As a site developer, I would like the site to accomplish:
 
 ### 1.4 Design Process
 
-Colour Scheme
+#### Colour Scheme
 
 -   I used the below colour chart from [Scheme Color](https://www.schemecolor.com/yellow-navy-blue-color-scheme.php) as I found it to be quite a striking and familiar colour chart (Ryanair?) to work with.
 -   For the game page, instead of using the background image, I decided to go with a radial-gradient of the two blue colours, rgb(79, 134, 224) and rgb(2, 42, 95).
@@ -91,17 +89,17 @@ Colour Scheme
 ![image](https://res.cloudinary.com/elerel/image/upload/v1611741228/Colour_scheme_rlwmwu.png)
 
 
-*   Images
+####   Images
 
 The imagery chosen for my project was down to two things- colours and to be able to create the sense of flying and the excitement of travel. I like this image as it shows the user in the image the tip of the wing, which is usually where the airline logo would appear.
 
 ![image](https://res.cloudinary.com/elerel/image/upload/v1611746832/plane1_s7otzx.jpg)
 
-*   Typography
+####   Typography
 
-I used Googlefonts to browse for suitable fonts to implement into the project and decided on "Dancing Script" for the title font as it appears as a neat and tidy font which reminds me of type of styled font you would see on 1950's aircrafts. It also works well with the hover bounce effect and creates an firendly, informal vibe to the site.
+I used Googlefonts to browse for suitable fonts to implement into the project and decided on **"Dancing Script"** for the title font as it appears as a neat and tidy font which reminds me of type of styled font you would see on 1950's aircrafts. It also works well with the hover bounce effect and creates an firendly, informal vibe to the site.
 
-*   Wireframes
+####   Wireframes
 
 The interactive memory card game simply has two sections: a welcome page with an instructions button (once clicked, a pop-up modal with bullet-styled instructions appear) and a button that directs the user to the game itself.
 
@@ -132,8 +130,9 @@ For this project, I decided to split the site into **two** sections, a home page
 
 ### 2.2 Features Left to Implement
 
-Had I more time to develop this game further, I would have definitely included **difficulty levels** ("Easy", "Medium" & "Hard" etc), with each level adding in more airline logos to match and less time as they progress, to make the game less of a play-once type of game and keep the player entertained longer. The game could be made more interesting if there were a facility to **track your score** and/or even present a leaderboard where one could submit their names and scores.
-To add further to the site itself, I would have also included a short **quiz** below the memory card game for bonus points perhaps, asking the player if they can recognize the logos and match them to the name of their associated airline. 
+-   Unfortunately as time did not allow, I would have definitely included **difficulty levels** ("Easy", "Medium" & "Hard" etc), with each level adding in more airline logos to match and less time as they progress
+-   The game could be made more interesting if there were a facility to **track your score** and/or even present a leaderboard where one could submit their names and scores.
+-   To add further to the site, I would have also included a short **quiz** below the memory card game for bonus points perhaps, asking the player if they can recognize the logos and match them to the name of their associated airline. 
 
 ---
 
@@ -160,25 +159,29 @@ To add further to the site itself, I would have also included a short **quiz** b
 
 ### 3.4 Tools and Other Resources:
 
+-   [AmIResponsive](http://ami.responsivedesign.is/) to check if the site is responsive across various devices
 -   [Autoprefixer CSS](https://autoprefixer.github.io/) used to check CSS browser compatibility.
+-   [Browserstack](https://www.browserstack.com/) used to check the responsiveness of project across a range of devices and browsers
+-   [Cloudinary](https://cloudinary.com/) used to store images for the project.
+-   [CSS](https://css-tricks.com/)- handy guide used for css tips/questions
 -   [Hover:CSS](https://ianlunn.github.io/Hover/) used to create additional CSS effects for the title page and buttons across the site
--   [Youtube](https://www.youtube.com/) Used as a very handy reference for online JS tutorials and refreshers on JS code learned from the course
+-   [Youtube](https://www.youtube.com/) used as a very handy reference for online JS tutorials and refreshers on JS code learned from the course
 -   [Real Favicon Generator](https://realfavicongenerator.net/)- to create the sites favicon
 -   [W3 Schools](https://www.w3schools.com/) used as a general reference guide for CSS tips and Javascript function queries.
 -   [Beautifier](https://beautifier.io/) used to beautify all code for the project.
 -   [Stack Overflow](https://stackoverflow.com/) as a reference for several tips on ...
--   [Cloudinary](https://cloudinary.com/) used to store images for the project.
--   [Browserstack](https://www.browserstack.com/) used to check the responsiveness of project across a range of devices and browsers
+-   [Markdown CheatSheet](https://www.markdownguide.org/cheat-sheet/) guide for refreshing memory on markdown use
 -   [MobiReady](https://ready.mobi/) used to check if the site is mobile responsive
 -   [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F) used to check how the responsive the design of the project was across different devices.
+-   [Unused-CSS](https://unused-css.com/)- a helpful tool to check for any unused CSS
 
 ### 3.4 Code Resources: 
 - [Tania Rascia's Tutorial](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/) on how to build a Memory Card Game with Javascript
 - [What-the-JS](https://www.ci-resources.online/js.html) by Jim Morel
 - Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
-- Marina Ferreira's [tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&feature=emb_logo) on how to build a memory card game
+- [Marina Ferreira's tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&feature=emb_logo) on how to build a memory card game
 
-##### back to [contents](#table-of-contents)
+##### Back to [Contents](#table-of-contents)
 ---
 
 ## 4. Testing
@@ -264,12 +267,23 @@ The site was deployed to GitHub pages using these steps below:
 -   You can choose to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 -   If you choose the Download ZIP option, a link to download the ZIP file is provided which can be unzipped on the local machine.
 
-##### back to [contents](#table-of-contents)
+### 6.3 To Fork the Project:
+
+If you would like to contribute to this project or have anything to add, you may fork the project using the following steps:
+-   Log on to [Github](https://github.com/) or create account and locate the Github repository.
+-   Open the [repository](https://github.com/elerel/ms2-letsfly)
+-   On the top right-hand of the page, click "Fork"
+-   You will now have a copy of your own of the repository in your own Github account.
+
+
+##### Back to [Contents](#table-of-contents)
 ---
 
 ## 7. Credits
 
 ### 7.1 Content
+
+All content is written by the developer, Eleanor Erel.
 
 ### 7.2 Media
 
@@ -278,15 +292,16 @@ The site was deployed to GitHub pages using these steps below:
 
 ### 7.3 Code
 
-Code snippets taken from Tania Rascia 
-stackoverflow
-Scotch.io for their star rating
-Bootstrap (modals)
+-   The bulk of the code written in Javascript is mainly from Tania Rascia's tutorial on building a memory card game. I used this tutorial as the primary base Code snippets taken from Tania Rascia 
+-   Scotch.io for their star rating
+-   Bootstrap- [Modals](https://getbootstrap.com/docs/4.0/components/modal/)
 
 ### 7.4 Acknowledgements
 
-For this project, my big thanks goes out to:
+For this project, my sincere thanks goes out to:
 - My mentor, **Nishant Kumar** for his relentless support and guidance given throughout this time.
 - The Slack Community, and Jim Morel for his very useful site "What the JS" which was incredibly helpful
 - Code Institute Student Care for their guidance in the past few weeks
 - My husband for his support and patience, and a little shout-out to my little girl, encouraging me that my game was not boring and not to give up!
+
+##### Back to [Contents](#table-of-contents)
