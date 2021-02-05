@@ -178,6 +178,7 @@ To add further to the site itself, I would have also included a short **quiz** b
 - Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
 - Marina Ferreira's [tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&feature=emb_logo) on how to build a memory card game
 
+##### back to [contents](#table-of-contents)
 ---
 
 ## 4. Testing
@@ -187,7 +188,7 @@ To add further to the site itself, I would have also included a short **quiz** b
 To make sure the code for my project passed without any errors or warnings, I used the following online validators:
 
 -   [W3C HTML Validator:](https://validator.w3.org/)
-![image](https://res.cloudinary.com/elerel/image/upload/v1612041026/html_ok_ln02va.png)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612523002/htmlchecker_jwpmce.jpg)
 
 -   [CSS Validator by Jigsaw:](https://jigsaw.w3.org/css-validator/)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612041034/CSS_validator_qqveko.png)
@@ -263,6 +264,7 @@ The site was deployed to GitHub pages using these steps below:
 -   You can choose to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 -   If you choose the Download ZIP option, a link to download the ZIP file is provided which can be unzipped on the local machine.
 
+##### back to [contents](#table-of-contents)
 ---
 
 ## 7. Credits
