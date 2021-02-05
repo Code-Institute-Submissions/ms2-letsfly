@@ -1,8 +1,17 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 .home-pg {
     height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -95,7 +104,8 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
   -webkit-animation-name: hvr-wobble-vertical;
@@ -114,19 +124,24 @@
 }
 
 .flex-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0.625rem;
   
 }
 
 .jc-center {
-  justify-content: center;  
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;  
 }
 
 .how2play,
 .start {
     margin-top: 10px;
     padding: 5px;
+    background: -o-radial-gradient(#e9e3c2, #b19b81);
     background: radial-gradient(#e9e3c2, #b19b81);
     color: #007bff;
     border: 1px solid rgb(206, 119, 48);
@@ -209,15 +224,19 @@
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+     transition-duration: 0.5s;
 }
 .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+      transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  -o-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 /* Modal Styling from index.html */
@@ -255,11 +274,13 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .game-body {
   margin: 0;
+  background: -o-radial-gradient(rgb(79, 134, 224), rgb(2, 42, 95));
   background: radial-gradient(rgb(79, 134, 224), rgb(2, 42, 95));
   min-height: 100vh;
 }
@@ -297,10 +318,16 @@
     color: #FAB942;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2em;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -312,6 +339,8 @@
 
 .score-panel ul {
      list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: 2px;
 }
@@ -324,15 +353,23 @@
 .grid {
   max-width: 30rem;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .card {
   position: relative;
+  -webkit-transition: all .4s linear;
+  -o-transition: all .4s linear;
   transition: all .4s linear;
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
   margin: 5px;
   background-color: transparent;
 }
@@ -347,7 +384,8 @@
 .back,
 .front {
   position: absolute;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .front {
@@ -356,7 +394,8 @@
 }
 
 .back {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
   background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
@@ -364,7 +403,8 @@
 }
 
 .selected {
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
 }
 
 .match .front {
@@ -391,6 +431,8 @@
 /* Congratulations Modal styling */
 
   #starRating {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     list-style-type: none;
   }
