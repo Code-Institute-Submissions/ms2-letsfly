@@ -87,7 +87,7 @@ const match = () => {
   });
 };
 
-//function to count how many moves made- code from  https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
+//function to count how many moves made- code from  https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves and modified
 let flips = 0;
 let counter = document.querySelector('.flips');
 function moveCounter() {
@@ -178,7 +178,7 @@ grid.addEventListener('click', function (event) {
         }
     });
 
-    //Function for win modal
+    //Function for win modal:
     function bigWinModal(flips) {
         let starRating = document.querySelector(".stars").innerHTML;
         let starsList = document.querySelectorAll(".stars li");
