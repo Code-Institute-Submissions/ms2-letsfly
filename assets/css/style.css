@@ -143,7 +143,7 @@
     padding: 5px;
     background: -o-radial-gradient(#e9e3c2, #b19b81);
     background: radial-gradient(#e9e3c2, #b19b81);
-    color: #007bff;
+    color: #107ff7;
     border: 1px solid rgb(206, 119, 48);
     border-radius: 20px;
     -moz-border-radius: 20px;
@@ -155,9 +155,17 @@
     width: 140px;
 }
 
+.start {
+    background: -o-radial-gradient(#e4dba6, #d8a05c);
+    background: radial-gradient(#e4dba6, #d8a05c);
+    border: 1px solid rgb(206, 119, 48);
+    color: #107ff7;
+    border: none;
+}
+
 .start:hover {
     text-decoration: none;
-    color: #007bff;
+    color: #f4ff00;
 }
 
 /* Media Queries */
