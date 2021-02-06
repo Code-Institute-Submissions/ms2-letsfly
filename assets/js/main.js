@@ -1,4 +1,5 @@
-// set card data array:
+(function(){
+window.onload = () => {
 
 const cardsArray = [{
     name: 'aircanada',
@@ -87,7 +88,7 @@ const match = () => {
   });
 };
 
-//function to count how many moves made- code from  https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves and modified
+//function to count how many moves made- code from  https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-3-moves
 let flips = 0;
 let counter = document.querySelector('.flips');
 function moveCounter() {
@@ -116,7 +117,6 @@ let resetGuesses = function resetGuesses() {
   secondGuess = '';
   count = 0;
   previousTarget = null;
-
 
   let selected = document.querySelectorAll('.selected');
   selected.forEach(function (card) {
@@ -178,15 +178,15 @@ grid.addEventListener('click', function (event) {
         }
     });
 
-    //Function for win modal:
-    function bigWinModal(flips) {
+        //Function for win modal
+    function bigWinModal(flips, inTime) {
         let starRating = document.querySelector(".stars").innerHTML;
-        let starsList = document.querySelectorAll(".stars li");
+        //let starsList = document.querySelectorAll(".stars li");
         let winModal = document.querySelector('.winModal');
         winModal.style.visibility = 'visible';
-        winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips!`;
-        winModal.querySelector('#totalTime').innerHTML = `only ${timeRemaining} seconds`; // code here not working- ask Nishant about this
+        winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips`;
         winModal.querySelector('#starRating').innerHTML = ` ${starRating}`;
+        document.getElementById("winTime").innerText = inTime;
     }
 
     //Function code from Stack Overflow (https://stackoverflow.com/questions/20618355/the-simplest-possible-javascript-countdown-timer) to set timer:
@@ -230,8 +230,6 @@ grid.addEventListener('click', function (event) {
             clearTimeout(timerId);
         }, 2000);
     };
+}
 
-
-
-
-
+})()
