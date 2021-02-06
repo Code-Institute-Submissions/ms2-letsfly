@@ -29,8 +29,6 @@
 - [3.4 Code Resources](#34-code-resources)
 
 [**4. Testing**](#4-testing)
-- [4.1 Online Validation](#41-online-validation)
-- [4.2 Testing User Stories](#42-testing-user-stories)
 
 [**5. Bugs and Solutions**](#5-bugs-and-solutions)
 - [5.1 Resolved Bugs](#51-resolved-bugs)
