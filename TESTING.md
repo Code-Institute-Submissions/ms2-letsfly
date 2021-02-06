@@ -1,12 +1,13 @@
 # <p align="center">Testing Report - Take to the Skies Memory Card Game</p>
 
 ## [**Contents**](#contents)
-    - [Manual Testing](#manual-testing)
-    - [Device Testing](#device-testing)
-    - [Online Validations](#online-validations)
-    - [Project Bugs and Solutions](#project-bugs-and-solutions)
-    - [Remaining Bugs](#remaining-bugs)
-    - [Testing User Stories](#testing-user-stories)
+
+ - [Manual Testing](#manual-testing)
+ - [Device Testing](#device-testing)
+ - [Online Validations](#online-validations)
+ - [Project Bugs and Solutions](#project-bugs-and-solutions)
+ - [Remaining Bugs](#remaining-bugs)
+ - [Testing User Stories](#testing-user-stories)
 
 ## Manual Testing 
 
@@ -34,12 +35,12 @@ The following steps were taken to ensure the site was performing as it should:
 - Ensure a Game Over modal appears when the user has run out of time and allows the user to replay the game or return home:
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612625459/gameover_teth0s.png)
 
-- Ensure that the player is redirected to the home page when the home button on the modals is selected
+- Ensure that the player is redirected to the home page when the home button on the modals is selected: no issues here, like the in above images the player is taken back to the home page when clicked.
 
 - Ensure a Congratulations modal appears when the user has won the game, displaying game results and an opportunity to replay the game:
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612625776/replay_hopgro.png)
 
-- Ensure that the flip counter is functional
+- Ensure that the flip counter is functional: the flip counter increases by one with each card turned over
 
 ---
 
@@ -47,18 +48,23 @@ The following steps were taken to ensure the site was performing as it should:
 
 I wanted to make sure that the site was responsive across all devices and used [Browserstack](https://www.browserstack.com/) and [Browserling](https://www.browserling.com/) as handy tools to check this. In the early stages of the project, I used [AmIResponsiveDesign](http://ami.responsivedesign.is/) and [Responsinator](https://www.responsinator.com/) in addition to check compatibility across browsers and several different devices.
 
+The site was tested across: **Chrome, Internet Explorer, Safari, Firefox, UC Browser, Opera and Samsung Internet.**
+
 The devices used to check Take to the Skies are as follows:
 
-    -   Android:    
-        - Chrome on Google Nexus 9
-        - Firefox on Google Pixel 4
-        - Chrome on Samsung Galaxy S9
-        - Firefox on Samsung Galaxy Tab S6
-    On Developer Tools:
-        - Galaxy S5, Moto G4, Galaxy Fold, Surface Duo, Pixel 2, Pixel 2 XL
+####  Android:    
 
-    -   iOS:
-        -     
+-  Chrome on Google Nexus 9
+-  Firefox on Google Pixel 4
+-  Chrome on Samsung Galaxy S9
+-  Firefox on Samsung Galaxy Tab S6
+
+ **On Chrome Developer Tools:**
+ Galaxy S5, Moto G4, Galaxy Fold, Surface Duo, Pixel 2, Pixel 2 XL
+
+####   iOS:
+
+-   
 
 
 ---
@@ -78,6 +84,9 @@ To make sure the code for my project passed without any errors or warnings, I us
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612041034/CSS_validator_qqveko.png)
 
 -   [JShint](https://jshint.com/)
+
+The only issues that showed in the JShint report were the use of 'let', 'const' 'arrow-function' and template literals use which is only available in ES6, causing no major concern. In addition, there were a few missing semi-colons in the code which I later added.
+
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612476597/jshintreport_qgqhu6.jpg)
 
 -   [Google Mobile Friendly Test:](https://search.google.com/test/mobile-friendly)
@@ -88,6 +97,11 @@ To make sure the code for my project passed without any errors or warnings, I us
 
 -   [LightHouse Report: Desktop](https://developers.google.com/web/tools/lighthouse)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612476765/lighthousescoredesktop_v2d1eb.jpg)
+
+
+There was an accessibility issue which I addressed and it was down to the contrast colours on the footer; I later changed the font color to black and it improved the overall accessibility rating.
+![image](https://res.cloudinary.com/elerel/image/upload/v1612645296/footer_yklyuz.png)
+
 
 - [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612623887/responsinator1_fpvw0t.png)
