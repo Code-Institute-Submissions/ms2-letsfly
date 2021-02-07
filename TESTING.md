@@ -114,7 +114,7 @@ To further improve the Lighthouse performance score, I removed some unused CSS a
 - [Responsinator:](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F)
 
 All appeared as normal in Responsinator, apart from the game grid pushing down to the footer on wide angle across devices from approx 667px width:
-![image](https://res.cloudinary.com/elerel/image/upload/v1612738922/responsinator_zjq3w7.png)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612735971/gridbottom2_fviruf.png)
 
 This was later resolved (as explained in bugs section below) and now appears as it should.
 
