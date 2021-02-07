@@ -1,6 +1,6 @@
 # <p align="center">Testing Report - Take to the Skies Memory Card Game</p>
 
-## [**Contents**](#contents)
+## [Contents:](#contents)
 
  - [Manual Testing](#manual-testing)
  - [Device Testing](#device-testing)
@@ -112,6 +112,11 @@ To further improve the Lighthouse performance score, I removed some unused CSS a
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612710915/amiresponsive_dhtf1w.png)
 
 - [Responsinator:](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F)
+
+All appeared as normal in Responsinator, apart from the game grid pushing down to the footer on wide angle across devices from approx 667px width:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612738922/responsinator_zjq3w7.png)
+
+This was later resolved (as explained in bugs section below) and now appears as it should.
 
 
 

@@ -124,8 +124,14 @@ For this project, I decided to split the site into **two** sections, a home page
     - The object of the game is to match as many cards in as little time as possiblle. The score button above the game grid keeps track of how they progress as they go on in the game.
     - Should the player wish to restart, they can simply click on the "reset" button in the top-right hand corner, or should they wish to review the instructions, they can also return to the home page. The user can also click on the game title of this page to restart their game.
     - Once the game is complete, the player will be met with a game-over modal message letting them know they ran out of time and the choice to restart the game or return to the home page **OR** they will be congratulated on their results of the game should they complete/find all pairs of the cards, detailing their results of the game in the modal content.
-    ![image](https://res.cloudinary.com/elerel/image/upload/v1612109218/gamepage_jujobz.png)
-    ![image](https://res.cloudinary.com/elerel/image/upload/v1612109359/gameovermodal_avmdem.png)
+   ![image](https://res.cloudinary.com/elerel/image/upload/v1612738412/gamepg_oh0feh.png)
+   
+   **Game Over Modal:**
+   ![image](https://res.cloudinary.com/elerel/image/upload/v1612738326/gameovermodal_cyraq2.png)
+
+   **Congratulations Modal:**
+   ![image](https://res.cloudinary.com/elerel/image/upload/v1612738271/congratsmodal_qjvjaz.png)
+
 
 ### 2.2 Features Left to Implement
 
@@ -234,10 +240,10 @@ All content is written by the developer, Eleanor Erel.
 
 ### 7.3 Code
 
--   As commented in main.js, the bulk of the code written in Javascript is mainly from Tania Rascia's tutorial on building a memory card game. I used this tutorial as the primary base for code snippets, as well as the tutorial from Sandra Israel-Ovirih's [Memory Card Game](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
+-   As commented in [main.js](https://github.com/elerel/ms2-letsfly/blob/master/assets/js/main.js), the bulk of the code written in Javascript is mainly from Tania Rascia's tutorial on building a memory card game. I used this tutorial as the primary base for code snippets, as well as the tutorial from Sandra Israel-Ovirih's [Memory Card Game](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
 -   Scotch.io [tutorial](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-4-star-rating) on how to display a star rating for the game 
 -   [Stackoverflow](https://stackoverflow.com/questions/46458740/starting-timer-when-clicking-first-card-of-memory-game) on how to begin timer on first card click of the game
--   Bootstrap:[Modals](https://getbootstrap.com/docs/4.0/components/modal/)
+-   Bootstrap: [Modals](https://getbootstrap.com/docs/4.0/components/modal/) code snippets from Bootstrap Modals for use of modals in both index page and game page
 
 ### 7.4 Acknowledgements
 

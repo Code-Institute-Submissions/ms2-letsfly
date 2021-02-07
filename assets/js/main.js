@@ -80,7 +80,6 @@ gameGrid.forEach(function (item) {
   card.appendChild(back);
 });
 
-
 //Function for matching cards- loops through all selected cards when called, then match class added
 const match = () => {
   let selected = document.querySelectorAll('.selected');
@@ -112,7 +111,7 @@ function moveCounter() {
     }
 }
 
-// code from Tania Rascia's tutorial- to allow multiple guesses/reset guess count after 2
+// code from Tania Rascia's tutorial- to allow multiple guesses/reset guess count after 2:
 let resetGuesses = function resetGuesses() {
   firstGuess = '';
   secondGuess = '';
