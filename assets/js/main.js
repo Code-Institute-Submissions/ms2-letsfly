@@ -54,31 +54,32 @@ grid.setAttribute('class', 'grid');
 game.appendChild(grid);
 
 // Shuffle cards and display 2 sets of 8 cards:
-var gameGrid = cardsArray.concat(cardsArray).sort(function () {
+const gameGrid = cardsArray.concat(cardsArray).sort(function () {
   return 0.5 - Math.random();
 });
 
-// Function to create card div for each object and display images from Tania Rascia Tutorial: https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
+// Function to create card div for each object and display images code snippet from Tania Rascia Tutorial: https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/)
 gameGrid.forEach(function (item) {
-  var name = item.name,
+  const name = item.name,
       img = item.img;
 
-  var card = document.createElement('div');
+  const card = document.createElement('div');
   card.classList.add('card');
   card.dataset.name = name;
 
-  var front = document.createElement('div');
+  const front = document.createElement('div');
   front.classList.add('front');
 
-  var back = document.createElement('div');
+  const back = document.createElement('div');
   back.classList.add('back');
-  back.style.backgroundImage = 'url(' + img + ')';
+  back.style.backgroundImage = `url(${img})`;
   
   // Append the div to the grid section:
   grid.appendChild(card);
   card.appendChild(front);
   card.appendChild(back);
 });
+
 
 //Function for matching cards- loops through all selected cards when called, then match class added
 const match = () => {
@@ -165,7 +166,7 @@ grid.addEventListener('click', function (event) {
   }
 });
 
-    //start the countdown when first card is clicked 
+    //start the countdown when first card is clicked:
     let gameBoard = document.querySelector('.board');
     gameBoard.onclick = (function() {
         firstClick++;
@@ -178,10 +179,9 @@ grid.addEventListener('click', function (event) {
         }
     });
 
-        //Function for win modal
+        //Function for win modal:
     function bigWinModal(flips, inTime) {
         let starRating = document.querySelector(".stars").innerHTML;
-        //let starsList = document.querySelectorAll(".stars li");
         let winModal = document.querySelector('.winModal');
         winModal.style.visibility = 'visible';
         winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips`;
