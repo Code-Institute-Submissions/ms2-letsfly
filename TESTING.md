@@ -100,9 +100,18 @@ The only issues that showed in the JShint report were the use of 'let', 'const' 
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612476765/lighthousescoredesktop_v2d1eb.jpg)
 
 
-There was an accessibility issue which I addressed and it was down to the contrast colours on the footer; I later changed the font color to black and it improved the overall accessibility rating.
-![image](https://res.cloudinary.com/elerel/image/upload/v1612645296/footer_yklyuz.png)
+To further improve the Lighthouse performance score, I removed some unused CSS as advised, added a META description for the site which improved the SEO scoring and changed the font colours of the footer to improve accessibility:
 
+- Mobile Lighthouse Report:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612711547/mobilelighthouse_s9zpyw.png)
+
+- Desktop Lighthouse Improved Report:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612711694/desktoplighthouse_rwsqlt.png)
+
+---
+
+- [AmIResponsiveDesign](http://ami.responsivedesign.is/#)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612710915/amiresponsive_dhtf1w.png)
 
 - [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F)
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612623887/responsinator1_fpvw0t.png)
@@ -111,12 +120,24 @@ There was an accessibility issue which I addressed and it was down to the contra
 
 ## Project Bugs and Solutions
 
--  The time remaining on the modal:
+-  **The time remaining on the modal:**
 When the player wins the game and the modal displaying the time thy had left no the clock, it seems to show a difference of one second apart (from what is showing above the modal in the score panel):
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612709041/timingbug_sfoi3e.png)
 
 To fix this, I tried adding "+1" in the winModal function and it gave the required response:
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612709073/timingbugfix_ub93ja.png)
+
+- **IPad Pro bug (found across several iOS devices):**
+The "how to play" and "start" buttons were not displaying the same as I had originally intended- the start button was displaying a different colour and had a lot more border radius to it:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612711817/ipadprobug_rhiwfm.png)
+
+To resolve this issue, instad of having the two buttons wrapped inside one div, I separated both buttons into their own "div" and added an auto-prefixer in CSS which managed to fix the layout.
+
+- **Title Game Page display/alignent:**
+For consistency purposes, I wanted to add the hover-wobble effect to the title game-page but it did not seem to centre itself on the page, even when text-center was added (via Bootstrap) and centre align in CSS:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612713733/titlegamepg_lzjz1g.png)
+
+Instead of having the wobble-effect, I decided to keep the title-gamepage as is and keep it as a link so if clicked, the game would restart.
 
 
 
