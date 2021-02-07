@@ -81,8 +81,9 @@ As a site developer, I would like the site to accomplish:
 
 #### Colour Scheme
 
--   I used the below colour chart from [Scheme Color](https://www.schemecolor.com/yellow-navy-blue-color-scheme.php) as I found it to be quite a striking and familiar colour chart (Ryanair?) to work with.
+-   Initially, I used the below colour chart to work from [Scheme Color](https://www.schemecolor.com/yellow-navy-blue-color-scheme.php) as I found it to be quite a striking and familiar colour chart (bold and very Ryanair) to work with.
 -   For the game page, instead of using the background image, I decided to go with a radial-gradient of the two blue colours, rgb(79, 134, 224) and rgb(2, 42, 95).
+-   I added in some extra colours, soft/warm earthy colours such as #e4dba6 and #d8a05c for the CTA buttons and are both different from each other to draw the attention of the user.
 
 ![image](https://res.cloudinary.com/elerel/image/upload/v1611741228/Colour_scheme_rlwmwu.png)
 
@@ -130,6 +131,7 @@ For this project, I decided to split the site into **two** sections, a home page
 
 -   Unfortunately as time did not allow, I would have definitely included **difficulty levels** ("Easy", "Medium" & "Hard" etc), with each level adding in more airline logos to match and less time as they progress
 -   The game could be made more interesting if there were a facility to **track your score** and/or even present a leaderboard where one could submit their names and scores.
+-   Was very close to but again timing as an issue, **sounds effects** as an addition I think would have enhanced UX and overall enjoyment of the game with a game.
 -   To add further to the site, I would have also included a short **quiz** below the memory card game for bonus points perhaps, asking the player if they can recognize the logos and match them to the name of their associated airline. 
 
 ---
@@ -187,8 +189,6 @@ For this project, I decided to split the site into **two** sections, a home page
 
 A full testing report can be found in the [Testing Section](TESTING.md)
 
-##### Back to [Contents](#table-of-contents)
-
 ---
 
 ## 6. Deployment
@@ -217,8 +217,8 @@ If you would like to contribute to this project or have anything to add, you may
 -   On the top right-hand of the page, click "Fork"
 -   You will now have a copy of your own of the repository in your own Github account.
 
-
 ##### Back to [Contents](#table-of-contents)
+
 ---
 
 ## 7. Credits
@@ -234,9 +234,10 @@ All content is written by the developer, Eleanor Erel.
 
 ### 7.3 Code
 
--   The bulk of the code written in Javascript is mainly from Tania Rascia's tutorial on building a memory card game. I used this tutorial as the primary base Code snippets taken from Tania Rascia 
--   Scotch.io for their star rating
--   Bootstrap- [Modals](https://getbootstrap.com/docs/4.0/components/modal/)
+-   As commented in main.js, the bulk of the code written in Javascript is mainly from Tania Rascia's tutorial on building a memory card game. I used this tutorial as the primary base for code snippets, as well as the tutorial from Sandra Israel-Ovirih's [Memory Card Game](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
+-   Scotch.io [tutorial](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-4-star-rating) on how to display a star rating for the game 
+-   [Stackoverflow](https://stackoverflow.com/questions/46458740/starting-timer-when-clicking-first-card-of-memory-game) on how to begin timer on first card click of the game
+-   Bootstrap:[Modals](https://getbootstrap.com/docs/4.0/components/modal/)
 
 ### 7.4 Acknowledgements
 

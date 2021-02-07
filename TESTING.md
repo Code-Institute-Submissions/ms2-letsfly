@@ -56,6 +56,7 @@ The devices used to check Take to the Skies are as follows:
 
 -  Chrome on Google Nexus 9
 -  Firefox on Google Pixel 4
+-  Huawei MediaPad T3
 -  Chrome on Samsung Galaxy S9
 -  Firefox on Samsung Galaxy Tab S6
 
@@ -69,10 +70,6 @@ The devices used to check Take to the Skies are as follows:
 
 
 ---
-
-incl Responsinator
-
-HTML, CSS and JShint were all used to validate the code for this project. Both HTML and CSS results returned no warnings or issues. JShint 
 
 ## Online Validations
 
@@ -111,10 +108,12 @@ To further improve the Lighthouse performance score, I removed some unused CSS a
 ---
 
 - [AmIResponsiveDesign](http://ami.responsivedesign.is/#)
+
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612710915/amiresponsive_dhtf1w.png)
 
-- [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F)
-![image](https://res.cloudinary.com/elerel/image/upload/v1612623887/responsinator1_fpvw0t.png)
+- [Responsinator:](https://www.responsinator.com/?url=https%3A%2F%2Felerel.github.io%2Fms2-letsfly%2F)
+
+
 
 ---
 
@@ -140,18 +139,19 @@ For consistency purposes, I wanted to add the hover-wobble effect to the title g
 Instead of having the wobble-effect, I decided to keep the title-gamepage as is and keep it as a link so if clicked, the game would restart.
 
 
-
-Expected - Tested the site by doing this - Result(The site did not respond due to abc or the site acted as expected and did Y) - Fix (I did Z to the code because D etc)
-
-Bugs that needed addressing:
-
 ## Remaining Bugs
 
-One of the few bugs I was unable to address when tested in Internet Explorer was that the card or game grid would not display and the score panel was left-aligned instead of center-aligned:
+-   One of the few bugs I was unable to address when tested in Internet Explorer was that the card or game grid would not display and the score panel was left-aligned instead of center-aligned:
 ![image](https://res.cloudinary.com/elerel/image/upload/v1612709795/IEexplorerbug_hsk8fb.png)
 
 This didn't cause too much worry, as IE is somewhat of an ageing browser and is no longer further developed by Microsoft, most users would have now moved on to Edge or an alternative browser. I tested the site on the latter and it displayed without any issues.
 
+-   One little stump I came across was how to remove the dark border over the "How to Play" button once clicked. The user can click anywhere on the page, or the close button to leave the instruction modal but the button's border then is much darker as per below:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612730419/how2playmodal_ei4qm8.png)
+
+Having checked W3 Schools and StackOverFlow for answers to try and solve, I added outline:none to the how2play button in my CSS which proved unsuccessful. Luckily it does not alter the button terribly, but to improve UX I would have had this fixed if I could.
+
+Another remaining bug, subtle but will be noticed is the second "1" failing to show on the countdown timer- it goes from 2 seconds to zero and unfortunately I did not know how to go about solving this.
 
 ---
 
