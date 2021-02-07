@@ -192,27 +192,11 @@
         margin-bottom: 60px;
     }
 
-     .card, .back, .front {
-        width: 60px;
-        height: 60px;
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center center;
-        margin: 2px;
-    }
 }
 
-@media screen and (min-width:240px) and (max-width:320px) {
+@media screen and (max-width:400px) {
     .title-homepage {
-        font-size: 2rem;
-        
-    }
-
-    .card,
-    .back,
-    .front {
-         height: 60px;
-         width: 60px;
+        font-size: 2rem;  
     }
 }
 
@@ -229,6 +213,15 @@
     }
 
 }
+
+@media screen and (min-width: 200px) and (max-width: 1526px) {
+        #game {
+        margin-bottom: 3.65rem;
+    }
+    }
+  
+
+
 
 /*  CSS hover style code taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
 .hvr-bounce-in {

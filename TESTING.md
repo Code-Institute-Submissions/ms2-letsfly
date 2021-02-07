@@ -46,7 +46,7 @@ The following steps were taken to ensure the site was performing as it should:
 
 ## Device Testing
 
-I wanted to make sure that the site was responsive across all devices and used [Browserstack](https://www.browserstack.com/) and [Browserling](https://www.browserling.com/) as handy tools to check this. In the early stages of the project, I used [AmIResponsiveDesign](http://ami.responsivedesign.is/) and [Responsinator](https://www.responsinator.com/) in addition to check compatibility across browsers and several different devices.
+I wanted to make sure that the site was responsive as much as possible across all devices and used [Browserstack](https://www.browserstack.com/) and [Browserling](https://www.browserling.com/) as handy tools to check this. In the early stages of the project, I used [AmIResponsiveDesign](http://ami.responsivedesign.is/) and [Responsinator](https://www.responsinator.com/) in addition to check compatibility across browsers and several different devices.
 
 The site was tested across: **Chrome, Internet Explorer, Safari, Firefox, UC Browser, Opera and Samsung Internet.**
 
@@ -138,6 +138,14 @@ For consistency purposes, I wanted to add the hover-wobble effect to the title g
 
 Instead of having the wobble-effect, I decided to keep the title-gamepage as is and keep it as a link so if clicked, the game would restart.
 
+- **Grid pushed to the bottom/on to the footer of the Game Page:**
+On smaller devices, such as iPhones 6,7 & 8 the grid of the game was appearing a lot lower than desired:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612734997/gridbottom_usjomf.png)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612735971/gridbottom2_fviruf.png)
+
+To resolve this, I added a margin-bottom to the game id and a media query on smaller devices which proved a much better look.
+
+---
 
 ## Remaining Bugs
 
