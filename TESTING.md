@@ -64,7 +64,8 @@ The devices used to check Take to the Skies are as follows:
 
 ####   iOS:
 
--   
+-   Iphone 12, Mini (12), 11 (Pro Max), Iphone 8 Plus, Iphone XS, Iphone XE (tested both on Chrome and Safari)
+-   IPad Pro 12.9 2020, IPad 7th, IPad Mini (2017)
 
 
 ---
@@ -109,11 +110,27 @@ There was an accessibility issue which I addressed and it was down to the contra
 ---
 
 ## Project Bugs and Solutions
+
+-  The time remaining on the modal:
+When the player wins the game and the modal displaying the time thy had left no the clock, it seems to show a difference of one second apart (from what is showing above the modal in the score panel):
+![image](https://res.cloudinary.com/elerel/image/upload/v1612709041/timingbug_sfoi3e.png)
+
+To fix this, I tried adding "+1" in the winModal function and it gave the required response:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612709073/timingbugfix_ub93ja.png)
+
+
+
 Expected - Tested the site by doing this - Result(The site did not respond due to abc or the site acted as expected and did Y) - Fix (I did Z to the code because D etc)
 
 Bugs that needed addressing:
 
 ## Remaining Bugs
+
+One of the few bugs I was unable to address when tested in Internet Explorer was that the card or game grid would not display and the score panel was left-aligned instead of center-aligned:
+![image](https://res.cloudinary.com/elerel/image/upload/v1612709795/IEexplorerbug_hsk8fb.png)
+
+This didn't cause too much worry, as IE is somewhat of an ageing browser and is no longer further developed by Microsoft, most users would have now moved on to Edge or an alternative browser. I tested the site on the latter and it displayed without any issues.
+
 
 ---
 
