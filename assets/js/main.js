@@ -186,7 +186,7 @@ grid.addEventListener('click', function (event) {
         winModal.style.visibility = 'visible';
         winModal.querySelector('#finalMove').innerHTML = `You made ${flips} card flips`;
         winModal.querySelector('#starRating').innerHTML = ` ${starRating}`;
-        document.getElementById("winTime").innerText = inTime;
+        document.getElementById("winTime").innerText = inTime +1; // seconds is showing one second less than what is showing in the score panel above modal so added one second so that it matches
     }
 
     //Function code from Stack Overflow (https://stackoverflow.com/questions/20618355/the-simplest-possible-javascript-countdown-timer) to set timer:
