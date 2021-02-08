@@ -36,7 +36,7 @@
 
 [**6. Deployment**](#6-deployment)
 - [6.1 Deploy to Github Pages](#61-deploy-to-github-pages)
-- [6.2 Clone or Downloading](#62-cloning-or-forking)
+- [6.2 Clone or Downloading](#62-clone-or-downloading)
 - [6.3 To Fork the Project](#63-to-fork-the-project)
 
 [**7. Credits**](#7-credits)
@@ -51,12 +51,12 @@
 
 ### 1.1 Overview
 
-As a young child (and to this day, I will admit), I used to love spotting the different airlines from the sky by their airline logos. I chose this project simply as there has never been a better time to switch off from the news around us lately and maybe even exercise our brains with this fun card- matching game. It is designed to be responsive on a wide range of devices and is a clean and simple site to navigate around for users of all ages to enjoy.
-What is the challenge of the game? With one standard level, the aim is to match all pairs in the given timeframe of 1 minute, with as few clicks/flips as possible to earn the highest score of 3 stars. The more card flips the user plays, the lower stars they receive.
+As a young child (and to this day, I will admit), I used to love spotting the different airlines from the sky by their airline logos. I chose this project simply as there has never been a better time to switch off from the news around us lately and maybe even exercise our brains with this fun card-matching game. It is designed to be responsive on a wide range of devices and is a clean and simple site to navigate around for users of all ages to enjoy.
+What is the challenge of the game? With one standard level, the aim is to match all pairs in the given time frame of 1 minute, with as few clicks/flips as possible to earn the highest score of 3 stars. The more card flips the user plays, the lower stars they are awarded.
 
 ### 1.2 Project Goals
 
-It was almost immediate that I decided to create a memory-card game for my second milestone project. By creating a fun and engaging game for the user, I wanted to create a challenging yet also fun exercise; the big drive in this project is to perform as much learning practise from Javascript as possible.
+It was almost immediate that I decided to create a memory-card game for my second milestone project. By creating a fun and engaging game for the user, I wanted to create a challenging yet also fun exercise; the big drive in this project is to exercise as much learning practise from Javascript as possible.
 
 ### 1.3 User Stories
 
@@ -240,7 +240,7 @@ All content is written by the developer, Eleanor Erel.
 
 ### 7.3 Code
 
--   As commented in [main.js](https://github.com/elerel/ms2-letsfly/blob/master/assets/js/main.js), the bulk of the code written in Javascript is mainly from Tania Rascia's tutorial on building a memory card game. I used this tutorial as the primary base for code snippets, as well as the tutorial from Sandra Israel-Ovirih's [Memory Card Game](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
+-   As commented in [main.js](https://github.com/elerel/ms2-letsfly/blob/master/assets/js/main.js), the bulk of the code written in Javascript is mainly from Tania Rascia's tutorial on building a memory card game. I used this tutorial as the primary base for learning how to make a memory card game using Javascript and have taken code snippets, as well as the tutorial from Sandra Israel-Ovirih's [Memory Card Game](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
 -   Scotch.io [tutorial](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-4-star-rating) on how to display a star rating for the game 
 -   [Stackoverflow](https://stackoverflow.com/questions/46458740/starting-timer-when-clicking-first-card-of-memory-game) on how to begin timer on first card click of the game
 -   Bootstrap: [Modals](https://getbootstrap.com/docs/4.0/components/modal/) code snippets from Bootstrap Modals for use of modals in both index page and game page

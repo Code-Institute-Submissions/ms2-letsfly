@@ -1,31 +1,32 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 .home-pg {
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .game-name {
-    position: relative;
-    text-align: center;
-    padding-top: 5vh;
+  position: relative;
+  text-align: center;
+  padding-top: 5vh;
 }
 
 .background-img {
-    background-image: url(../img/plane1.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    overflow: hidden;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    background-attachment: fixed;
-    background-position: center;    
+  background-image: url(../img/plane1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .title-homepage {
@@ -45,61 +46,74 @@
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
   }
+
   33.3% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
   }
+
   49.95% {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
   }
+
   66.6% {
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
   }
+
   83.25% {
     -webkit-transform: translateY(1px);
     transform: translateY(1px);
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
+
 @keyframes hvr-wobble-vertical {
   16.65% {
     -webkit-transform: translateY(8px);
     transform: translateY(8px);
   }
+
   33.3% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
   }
+
   49.95% {
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
   }
+
   66.6% {
     -webkit-transform: translateY(-2px);
     transform: translateY(-2px);
   }
+
   83.25% {
     -webkit-transform: translateY(1px);
     transform: translateY(1px);
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 }
+
 .hvr-wobble-vertical {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+
 .hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
   -webkit-animation-name: hvr-wobble-vertical;
   animation-name: hvr-wobble-vertical;
@@ -110,107 +124,104 @@
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
-             
+
 .test {
-    color: rgb(207, 161, 9);
-    font-size: 15px;
+  color: rgb(207, 161, 9);
+  font-size: 15px;
 }
 
 .flex-parent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0.625rem;  
+  margin: 0.625rem;
 }
 
 .jc-center {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;  
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .how2play,
 .start {
-    margin-top: 10px;
-    padding: 5px;
-    background: -o-radial-gradient(#e9e3c2, #b19b81);
-    background: radial-gradient(#e9e3c2, #b19b81);
-    color: #107ff7;
-    border: 1px solid rgb(206, 119, 48);
-    border-radius: 20px;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
-    font-weight: 600;
-    font-size: 1.25rem;
-    font-family: "Source Sans Pro";
-    text-align: center;  
-    width: 140px;
+  margin-top: 10px;
+  padding: 5px;
+  background: -o-radial-gradient(#e9e3c2, #b19b81);
+  background: radial-gradient(#e9e3c2, #b19b81);
+  color: #107ff7;
+  border: 1px solid rgb(206, 119, 48);
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  font-family: "Source Sans Pro";
+  text-align: center;
+  width: 140px;
 }
 
 .start {
-    background: -o-radial-gradient(#e4dba6, #d8a05c);
-    background: radial-gradient(#e4dba6, #d8a05c);
-    border: 1px solid rgb(192, 103, 30);
-    color: #107ff7;
-    
+  background: -o-radial-gradient(#e4dba6, #d8a05c);
+  background: radial-gradient(#e4dba6, #d8a05c);
+  border: 1px solid rgb(192, 103, 30);
+  color: #107ff7;
 }
 
 .start:hover {
-    text-decoration: none;
-    color: #f4ff00;
+  text-decoration: none;
+  color: #f4ff00;
 }
 
 
 /* Media Queries */
 @media screen and (max-width:420px) {
 
-    .title-homepage {
-        font-size: 2rem;
-        font-weight: bold;
-    }
+  .title-homepage {
+    font-size: 2rem;
+    font-weight: bold;
+  }
 
-    .modal-btn {
-        font-size: 1em;
-    }
+  .modal-btn {
+    font-size: 1em;
+  }
 
-    .modal-title {
-        margin-left: 2.5rem;
-    }
+  .modal-title {
+    margin-left: 2.5rem;
+  }
 
-    .how-to-play {
-        padding-left: 0;
-    }
+  .how-to-play {
+    padding-left: 0;
+  }
 
-    #game {
-        margin-bottom: 60px;
-    }
-
+  #game {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (max-width:400px) {
-    .title-homepage {
-        font-size: 2rem;  
-    }
+  .title-homepage {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 660px) {
-    .title-homepage {
-        font-size: 2.65rem;
-    }
+  .title-homepage {
+    font-size: 2.65rem;
+  }
 }
 
 @media screen and (min-width: 660px) and (max-width: 1024px) {
-    .title-homepage {
-        font-size: 3rem;
-        margin-top: auto;
-    }
-
+  .title-homepage {
+    font-size: 3rem;
+    margin-top: auto;
+  }
 }
 
 @media screen and (min-width: 200px) and (max-width: 1526px) {
-        #game {
-        margin-bottom: 3.65rem;
-    }
+  #game {
+    margin-bottom: 3.65rem;
+  }
 }
   
 /*  CSS hover style code taken from https://github.com/IanLunn/Hover/blob/master/css/hover.css */
@@ -220,49 +231,50 @@
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
-     transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
+
 .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-      transform: scale(1.2);
+  transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   -o-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
 
 /* Modal Styling from index.html */
 .modal-content {
-    text-align: center;
-    color: #FAB942; 
-    background:rgb(40, 46, 138);     
+  text-align: center;
+  color: #FAB942;
+  background: rgb(40, 46, 138);
 }
 
 .modal-title {
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    color: #FAB942;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: #FAB942;
 }
 
 .modal-btn {
-    color: #FAB942;
-    font-weight: bold;
-    font-size: 2em;
+  color: #FAB942;
+  font-weight: bold;
+  font-size: 2em;
 }
 
 .modal-btn:hover {
-    color: #f4ff00;
-    text-decoration: none;
-    text-transform: uppercase;
+  color: #f4ff00;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .how-to-play i {
-    color: #FAB942;
-    padding-left: 0px;
+  color: #FAB942;
+  padding-left: 0px;
 }
 
 
@@ -271,7 +283,7 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .game-body {
@@ -282,17 +294,17 @@
 }
 
 .back-btn {
-    margin: 10px 5px 20px; 
+  margin: 10px 5px 20px;
 }
 
 .back-btn a {
-    font-family: 'Source San Pro', sans-serif;
-    color: #FAB942;
-    text-decoration: none;
+  font-family: 'Source San Pro', sans-serif;
+  color: #FAB942;
+  text-decoration: none;
 }
 
 .replay-btn {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .title-gamepage {
@@ -305,44 +317,42 @@
 }
 
 .title-gamepage:hover {
-      text-decoration: none;
-      color: #FAB942;
+  text-decoration: none;
+  color: #FAB942;
 }
 
 .game-container {
-    color: #FAB942;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: auto;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    display: block;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+  color: #FAB942;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .score-panel {
-    color: #FAB942;
-    margin-right: 35px;
-   
+  color: #FAB942;
+  margin-right: 35px;
 }
 
 .score-panel ul {
-     list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 2px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2px;
 }
 
 #game {
-    margin-top: 15px;
-    
+  margin-top: 15px;
 }
 
 .grid {
@@ -352,10 +362,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -364,7 +374,7 @@
   -o-transition: all .4s linear;
   transition: all .4s linear;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   margin: 5px;
   background-color: transparent;
 }
@@ -380,7 +390,7 @@
 .front {
   position: absolute;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .front {
@@ -390,7 +400,7 @@
 
 .back {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
   background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
@@ -399,49 +409,49 @@
 
 .selected {
   -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 
 .match .front {
   background-image: none;
-  
 }
+
 .card, .match {
-    border: none;
+  border: none;
 }
 
 /* Gave over modal styling */
 
 .reset-btn,
 .home-btn {
-    color: #FAB942;
-    font-weight: bold;
+  color: #FAB942;
+  font-weight: bold;
 }
 
 .reset-btn:hover,
 .home-btn:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Congratulations Modal styling */
 
-  #starRating {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    list-style-type: none;
-  }
+#starRating {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style-type: none;
+}
 
 /* Footer Styling */
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   padding-top: 5px;
-   padding-bottom: 5px;
-   width: 100%;
-   background-color: rgb(192, 180, 180);
-   text-align: center;
-   font-family: sans-serif;
-   font-weight: bold;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  background-color: rgb(192, 180, 180);
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
 }
