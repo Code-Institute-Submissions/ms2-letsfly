@@ -96,11 +96,11 @@ The imagery chosen for my project was down to two things- colours and to be able
 
 ####   Typography
 
-I used Googlefonts to browse for suitable fonts to implement into the project and decided on **"Dancing Script"** for the title font as it appears as a neat and tidy font which reminds me of type of styled font you would see on 1950's aircrafts. It also works well with the hover bounce effect and creates an firendly, informal vibe to the site.
+I used Googlefonts to browse for suitable fonts to implement into the project and decided on **"Dancing Script"** for the title font as it appears as a neat and tidy font which reminds me of type of styled font you would see on 1950's aircrafts. It also works well with the hover bounce effect and creates an friendly, informal vibe to the site.
 
 ####   Wireframes
 
-The interactive memory card game simply has two sections: a welcome page with an instructions button (once clicked, a pop-up modal with bullet-styled instructions appear) and a button that directs the user to the game itself.
+The interactive memory card game simply has two sections: a welcome page with an instructions button (once clicked, a pop-up modal with bullet-styled instructions appear) and a button that directs the user to the game itself. Since completing the wireframes for this project, I added some extra features such as a star rating and better organisation of the buttons displayed on the page.
 
 - Wireframes for large screens and desktops: <a href= "assets/docs/wireframes/MS2-desktop.pdf" target="_blank"> Desktop View</a>
 - Wireframes for medium screens and tablet devices: <a href= "assets/docs/wireframes/MS2-tablet.pdf" target="_blank"> Tablet View</a>

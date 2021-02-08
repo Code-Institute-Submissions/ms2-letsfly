@@ -38,7 +38,7 @@ The following steps were taken to ensure the site was performing as it should:
 - Ensure that the player is redirected to the home page when the home button on the modals is selected: no issues here, like the in above images the player is taken back to the home page when clicked.
 
 - Ensure a Congratulations modal appears when the user has won the game, displaying game results and an opportunity to replay the game:
-![image](https://res.cloudinary.com/elerel/image/upload/v1612625776/replay_hopgro.png)
+![image](https://res.cloudinary.com/elerel/image/upload/v1612738271/congratsmodal_qjvjaz.png)
 
 - Ensure that the flip counter is functional: the flip counter increases by one with each card turned over
 
@@ -50,7 +50,7 @@ I wanted to make sure that the site was responsive as much as possible across al
 
 The site was tested across: **Chrome, Internet Explorer, Safari, Firefox, UC Browser, Opera and Samsung Internet.**
 
-The devices used to check Take to the Skies are as follows:
+The devices used to check Take to the Skies, thanks to friends and family are as follows:
 
 ####  Android:    
 
@@ -59,6 +59,7 @@ The devices used to check Take to the Skies are as follows:
 -  Huawei MediaPad T3
 -  Chrome on Samsung Galaxy S9
 -  Firefox on Samsung Galaxy Tab S6
+-  Chrome & Samsung Internet on Samsung A50 & Samsung A40
 
  **On Chrome Developer Tools:**
  Galaxy S5, Moto G4, Galaxy Fold, Surface Duo, Pixel 2, Pixel 2 XL
