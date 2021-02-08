@@ -184,7 +184,7 @@ For this project, I decided to split the site into **two** sections, a home page
 ### 3.4 Code Resources: 
 - [Tania Rascia's Tutorial](https://www.taniarascia.com/how-to-create-a-memory-game-super-mario-with-plain-javascript/) on how to build a Memory Card Game with Javascript
 - [What-the-JS](https://www.ci-resources.online/js.html) by Jim Morel
-- Scotch.io's web tutorial on how to build a memory card game [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow)
+- [Sandra Israel-Ovirih's](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript#toc-process-flow) tutorial (from scotch.io) on how to build a memory card game 
 - [Marina Ferreira's tutorial](https://www.youtube.com/watch?v=ZniVgo8U7ek&feature=emb_logo) on how to build a memory card game
 
 ##### Back to [Contents](#table-of-contents)
